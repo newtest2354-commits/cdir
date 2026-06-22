@@ -45,10 +45,10 @@ if HAS_UVLOOP:
 
 @dataclass
 class Config:
-    max_workers: int = 30
-    queue_size: int = 5000
-    batch_size: int = 200
-    tcp_timeout: float = 0.3
+    max_workers: int = 40
+    queue_size: int = 10000
+    batch_size: int = 300
+    tcp_timeout: float = 0.2
     max_latency: int = 400
     min_latency: int = 50
     redis_url: str = "redis://localhost:6379"
@@ -63,13 +63,14 @@ class Config:
     max_geo_batch: int = 15
     max_ports_per_ip: int = 7
     enable_http_test: bool = True
-    http_test_timeout: float = 2.0
+    http_test_timeout: float = 1.5
     http_test_url: str = "http://httpbin.org/ip"
     enable_prometheus: bool = True
     prometheus_port: int = 9090
     enable_uvloop: bool = True
     runner_id: str = None
     ports: List[int] = None
+    http_parallel: int = 100
 
     def __post_init__(self):
         if self.ports is None:
@@ -89,7 +90,7 @@ if HAS_PROMETHEUS:
     PROXY_COUNT = Gauge('proxy_count', 'Total proxies in database')
 
 class PortScheduler:
-    def __init__(self, max_concurrent: int = 100):
+    def __init__(self, max_concurrent: int = 150):
         self.semaphore = asyncio.Semaphore(max_concurrent)
         self.subnet_semaphores = {}
         self._lock = asyncio.Lock()
@@ -119,7 +120,7 @@ class EventDrivenDialer:
         self.results = {}
         self._lock = asyncio.Lock()
     
-    async def dial_port(self, ip: str, port: int, timeout: float = 0.3) -> Tuple[Optional[int], Optional[float]]:
+    async def dial_port(self, ip: str, port: int, timeout: float = 0.2) -> Tuple[Optional[int], Optional[float]]:
         await self.scheduler.acquire(ip)
         try:
             start = time.time()
@@ -134,7 +135,7 @@ class EventDrivenDialer:
         except:
             return port, None
     
-    async def scan_ip(self, ip: str, ports: List[int], timeout: float = 0.3, min_latency: int = 50) -> Tuple[Optional[int], Optional[float]]:
+    async def scan_ip(self, ip: str, ports: List[int], timeout: float = 0.2, min_latency: int = 50) -> Tuple[Optional[int], Optional[float]]:
         for port in ports:
             p, lat = await self.dial_port(ip, port, timeout)
             if lat is not None:
@@ -153,11 +154,11 @@ class HTTPProxyTester:
         if self.session is None:
             async with self._lock:
                 if self.session is None:
-                    connector = aiohttp.TCPConnector(limit=50, limit_per_host=10)
+                    connector = aiohttp.TCPConnector(limit=100, limit_per_host=20)
                     self.session = aiohttp.ClientSession(connector=connector)
         return self.session
     
-    async def test_proxy(self, ip: str, port: int, timeout: float = 2.0) -> bool:
+    async def test_proxy(self, ip: str, port: int, timeout: float = 1.5) -> bool:
         cache_key = f"{ip}:{port}"
         if cache_key in self.cache:
             return self.cache[cache_key]
@@ -194,30 +195,29 @@ class HTTPProxyTester:
         if not self.config.enable_http_test or not proxies:
             return proxies
         
-        results = []
-        for proxy in proxies:
-            working = await self.test_proxy(proxy['ip'], proxy['port'], self.config.http_test_timeout)
-            if working:
-                proxy['http_working'] = True
-                results.append(proxy)
-            else:
-                proxy['http_working'] = False
-                results.append(proxy)
+        semaphore = asyncio.Semaphore(self.config.http_parallel)
         
-        return results
+        async def test_one(proxy):
+            async with semaphore:
+                working = await self.test_proxy(proxy['ip'], proxy['port'], self.config.http_test_timeout)
+                proxy['http_working'] = working
+                return proxy
+        
+        tasks = [test_one(p) for p in proxies]
+        return await asyncio.gather(*tasks)
     
     async def close(self):
         if self.session:
             await self.session.close()
 
 class AsyncTCPBatchScanner:
-    def __init__(self, max_concurrent: int = 100):
+    def __init__(self, max_concurrent: int = 150):
         self.scheduler = PortScheduler(max_concurrent)
         self.dialer = EventDrivenDialer(self.scheduler)
         self._lock = asyncio.Lock()
         self.results = {}
     
-    async def scan_batch(self, ips: List[str], ports: List[int], timeout: float = 0.3, min_latency: int = 50) -> Dict[str, Tuple[int, float]]:
+    async def scan_batch(self, ips: List[str], ports: List[int], timeout: float = 0.2, min_latency: int = 50) -> Dict[str, Tuple[int, float]]:
         self.results = {}
         self.scheduler.reset()
         
@@ -584,7 +584,7 @@ class ProgressTracker:
         self.total = total
 
 class AdaptiveBatcher:
-    def __init__(self, base_batch: int = 200):
+    def __init__(self, base_batch: int = 300):
         self.base_batch = base_batch
         self.current_batch = base_batch
         self.success_rates = []
@@ -602,7 +602,7 @@ class AdaptiveBatcher:
         avg_rate = sum(self.success_rates) / len(self.success_rates) if self.success_rates else 1.0
         
         if avg_rate > 0.5:
-            self.current_batch = min(400, int(self.base_batch * 1.3))
+            self.current_batch = min(500, int(self.base_batch * 1.3))
         elif avg_rate > 0.2:
             self.current_batch = self.base_batch
         else:
@@ -623,7 +623,7 @@ class HybridWorker:
         self.storage = AsyncStorage(config.db_path)
         self.geo = DistributedGeoEnricher(config.maxmind_path, config.use_online_fallback)
         self.batcher = AdaptiveBatcher(config.batch_size)
-        self.scanner = AsyncTCPBatchScanner(max_concurrent=100)
+        self.scanner = AsyncTCPBatchScanner(max_concurrent=150)
         self.http_tester = HTTPProxyTester(config) if config.enable_http_test else None
 
         self.running = True
@@ -732,7 +732,7 @@ class HybridWorker:
 
         while self.running:
             try:
-                events_with_ids = await self.queue.pull_events(count=100, block=200)
+                events_with_ids = await self.queue.pull_events(count=200, block=300)
 
                 if not events_with_ids:
                     await asyncio.sleep(0.01)
@@ -780,7 +780,7 @@ class HybridPipeline:
         self.progress = ProgressTracker(interval=10)
 
         self.workers = []
-        self.num_workers = min(multiprocessing.cpu_count(), 4)
+        self.num_workers = min(multiprocessing.cpu_count() * 2, 8)
 
         if self.config.enable_prometheus and HAS_PROMETHEUS:
             try:
@@ -906,7 +906,7 @@ class HybridPipeline:
 
             self.logger.info("Waiting for queue to drain...")
 
-            for _ in range(20):
+            for _ in range(30):
                 queue_size = await self.queue.get_queue_size()
                 if queue_size == 0:
                     break
@@ -950,8 +950,8 @@ class HybridPipeline:
 async def main():
     config = Config(
         ultra_mode=True,
-        max_workers=30,
-        batch_size=200,
+        max_workers=40,
+        batch_size=300,
         max_output_ips=4000,
         retention_days=7,
         maxmind_path="GeoLite2-Country.mmdb",
@@ -960,6 +960,9 @@ async def main():
         enable_http_test=True,
         enable_prometheus=True,
         enable_uvloop=True,
+        tcp_timeout=0.2,
+        http_test_timeout=1.5,
+        http_parallel=100,
         runner_id=f"runner-{os.getpid()}"
     )
     pipeline = HybridPipeline(config)
