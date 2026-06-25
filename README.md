@@ -64,41 +64,41 @@
 ## 📥 لینک‌های دسترسی به کانفیگ‌ها
 
 <details>
-<summary>📱 <b>کلاینت‌های V2rayNG, Hiddify, NekoBox, ...</b></summary>
+<summary>📱 <b>V2rayNG • Hiddify • NekoBox • ...</b></summary>
 
 <br/>
 
 | منبع | ۵۰ | ۱۰۰ | ۱۵۰ | ۲۰۰ | ۲۵۰ | ۳۰۰ | ۴۰۰ | ۵۰۰ | ALL |
-|-------|-----|------|------|------|------|------|------|------|-----|
-| **تلگرام** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/50.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/100.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/150.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/200.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/250.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/300.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/400.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/500.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/ALL.txt) |
-| **گیت‌هاب** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/50.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/100.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/150.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/200.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/250.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/300.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/400.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/500.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/ALL.txt) |
-| **ترکیبی** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/50.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/100.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/150.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/200.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/250.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/300.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/400.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/500.txt) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/ALL.txt) |
+|:-----|:---:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:---:|
+| **تلگرام** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/50.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/100.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/150.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/200.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/250.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/300.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/400.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/500.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/telegram/ALL/ALL.txt) |
+| **گیت‌هاب** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/50.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/100.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/150.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/200.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/250.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/300.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/400.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/500.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/github/ALL/ALL.txt) |
+| **ترکیبی** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/50.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/100.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/150.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/200.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/250.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/300.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/400.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/500.txt) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/configs/combined/ALL/ALL.txt) |
 
 </details>
 
 <details>
-<summary>🔷 <b>کلاینت‌های SingBox</b></summary>
+<summary>🔷 <b>SingBox</b></summary>
 
 <br/>
 
 | منبع | ۵۰ | ۱۰۰ | ۱۵۰ | ۲۰۰ | ۲۵۰ | ۳۰۰ | ۴۰۰ | ۵۰۰ | ALL |
-|-------|-----|------|------|------|------|------|------|------|-----|
-| **تلگرام** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/50.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/100.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/150.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/200.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/250.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/300.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/400.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/500.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/ALL.json) |
-| **گیت‌هاب** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/50.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/100.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/150.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/200.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/250.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/300.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/400.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/500.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/ALL.json) |
-| **ترکیبی** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/50.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/100.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/150.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/200.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/250.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/300.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/400.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/500.json) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/ALL.json) |
+|:-----|:---:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:---:|
+| **تلگرام** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/50.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/100.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/150.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/200.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/250.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/300.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/400.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/500.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/telegram/ALL/ALL.json) |
+| **گیت‌هاب** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/50.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/100.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/150.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/200.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/250.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/300.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/400.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/500.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/github/ALL/ALL.json) |
+| **ترکیبی** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/50.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/100.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/150.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/200.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/250.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/300.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/400.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/500.json) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.json/combined/ALL/ALL.json) |
 
 </details>
 
 <details>
-<summary>🔶 <b>کلاینت‌های ClashMeta</b></summary>
+<summary>🔶 <b>ClashMeta</b></summary>
 
 <br/>
 
 | منبع | ۵۰ | ۱۰۰ | ۱۵۰ | ۲۰۰ | ۲۵۰ | ۳۰۰ | ۴۰۰ | ۵۰۰ | ALL |
-|-------|-----|------|------|------|------|------|------|------|-----|
-| **تلگرام** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/50.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/100.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/150.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/200.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/250.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/300.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/400.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/500.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/ALL.yaml) |
-| **گیت‌هاب** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/50.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/100.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/150.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/200.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/250.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/300.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/400.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/500.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/ALL.yaml) |
-| **ترکیبی** | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/50.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/100.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/150.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/200.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/250.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/300.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/400.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/500.yaml) | [دانلود](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/ALL.yaml) |
+|:-----|:---:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:---:|
+| **تلگرام** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/50.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/100.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/150.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/200.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/250.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/300.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/400.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/500.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/telegram/ALL/ALL.yaml) |
+| **گیت‌هاب** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/50.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/100.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/150.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/200.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/250.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/300.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/400.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/500.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/github/ALL/ALL.yaml) |
+| **ترکیبی** | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/50.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/100.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/150.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/200.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/250.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/300.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/400.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/500.yaml) | [📥](https://cdn.jsdelivr.net/gh/aristapanell-cell/AriataPanel@main/config.yaml/combined/ALL/ALL.yaml) |
 
 </details>
 
@@ -106,33 +106,33 @@
 
 ## 🎯 آی‌پی‌های تست‌شده و بهینه
 
-**لیست آی‌پی‌های تأییدشده با کمترین latency و بیشترین پایداری**
+> ⚡ **کمترین latency | بیشترین پایداری | به‌روزرسانی خودکار**
 
-| نوع فایل | لینک دسترسی |
-|----------|-------------|
-| **فقط IP** | [مشاهده](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_only.txt) |
-| **IP:PORT** | [مشاهده](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_port.txt) |
-| **کامل با جزئیات** | [مشاهده](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_port_cdn_sni_country_type.txt) |
-| **پوشه کامل** | [مشاهده پوشه](https://github.com/newtest2354-commits/testGit/tree/main/best_ip) |
+| فایل | توضیحات | لینک |
+|:-----|---------|:----:|
+| `ip_only.txt` | فقط آی‌پی | [📥](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_only.txt) |
+| `ip_port.txt` | آی‌پی و پورت | [📥](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_port.txt) |
+| `ip_port_cdn_sni_country_type.txt` | اطلاعات کامل (CDN, SNI, کشور, نوع) | [📥](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_port_cdn_sni_country_type.txt) |
+| **پوشه کامل** | همه فایل‌ها | [📁](https://github.com/newtest2354-commits/testGit/tree/main/best_ip) |
 
 ---
 
 ## 📱 کلاینت‌های پشتیبانی‌شده
 
 | نام کلاینت | سیستم‌عامل | لینک دانلود |
-|-----------|-----------|------------|
-| **V2rayNG** | Android | [دانلود](https://github.com/2dust/v2rayNG/releases) |
-| **Hiddify** | Android / iOS / Windows / macOS / Linux | [دانلود](https://github.com/hiddify/hiddify-app/releases) |
-| **NekoBox** | Android | [دانلود](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
-| **SingBox** | Android / iOS / Windows / macOS / Linux | [دانلود](https://github.com/SagerNet/sing-box/releases) |
-| **ClashMeta** | Android / iOS / Windows / macOS / Linux | [دانلود](https://github.com/MetaCubeX/Clash.Meta/releases) |
-| **v2rayN** | Windows | [دانلود](https://github.com/2dust/v2rayN/releases) |
-| **Nekoray** | Windows / macOS / Linux | [دانلود](https://github.com/MatsuriDayo/nekoray/releases) |
-| **Streisand** | Windows / macOS / Linux | [دانلود](https://github.com/SagerNet/Streisand/releases) |
-| **Shadowrocket** | iOS | [دانلود](https://apps.apple.com/app/shadowrocket/id932747118) |
-| **FairVPN** | iOS / macOS | [دانلود](https://apps.apple.com/app/fairvpn/id1533888676) |
-| **V2Box** | iOS | [دانلود](https://apps.apple.com/app/v2box-v2ray-client/id6446814690) |
-| **FoXray** | iOS | [دانلود](https://apps.apple.com/app/foxray/id6448898396) |
+|:-----------|:-----------|:-----------:|
+| **V2rayNG** | Android | [📥](https://github.com/2dust/v2rayNG/releases) |
+| **Hiddify** | Android • iOS • Windows • macOS • Linux | [📥](https://github.com/hiddify/hiddify-app/releases) |
+| **NekoBox** | Android | [📥](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
+| **SingBox** | Android • iOS • Windows • macOS • Linux | [📥](https://github.com/SagerNet/sing-box/releases) |
+| **ClashMeta** | Android • iOS • Windows • macOS • Linux | [📥](https://github.com/MetaCubeX/Clash.Meta/releases) |
+| **v2rayN** | Windows | [📥](https://github.com/2dust/v2rayN/releases) |
+| **Nekoray** | Windows • macOS • Linux | [📥](https://github.com/MatsuriDayo/nekoray/releases) |
+| **Streisand** | Windows • macOS • Linux | [📥](https://github.com/SagerNet/Streisand/releases) |
+| **Shadowrocket** | iOS | [📥](https://apps.apple.com/app/shadowrocket/id932747118) |
+| **FairVPN** | iOS • macOS | [📥](https://apps.apple.com/app/fairvpn/id1533888676) |
+| **V2Box** | iOS | [📥](https://apps.apple.com/app/v2box-v2ray-client/id6446814690) |
+| **FoXray** | iOS | [📥](https://apps.apple.com/app/foxray/id6448898396) |
 
 ---
 
