@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 50
-// Updated: 2026-06-25 13:09:28
+// Updated: 2026-06-25 13:21:03
 // Count: 50
 
 {
@@ -497,18 +497,20 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #24",
-      "server": "167.68.4.199",
-      "server_port": 2053,
-      "password": "Aimer",
+      "server": "185.126.236.44",
+      "server_port": 443,
+      "password": "BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL",
       "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "epge.muarua.filegear-sg.me"
-        }
+        "enabled": true,
+        "server_name": "www.mesaly.click",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
       }
     },
     {
@@ -524,10 +526,7 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
+        }
       }
     },
     {
@@ -633,13 +632,7 @@
       "server_port": 443,
       "password": "BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL",
       "tls": {
-        "enabled": true,
-        "server_name": "www.mesaly.click",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false
       }
     },
     {
@@ -655,16 +648,6 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #34",
-      "server": "185.126.236.44",
-      "server_port": 443,
-      "password": "BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #35",
       "server": "119.246.1.143",
       "server_port": 443,
       "password": "BxceQaOe",
@@ -680,7 +663,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #36",
+      "tag": "T.ME: @aristapnel #35",
       "server": "198.52.244.10",
       "server_port": 443,
       "password": "GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K",
@@ -696,7 +679,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #37",
+      "tag": "T.ME: @aristapnel #36",
       "server": "207.126.167.162",
       "server_port": 443,
       "password": "GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K",
@@ -706,7 +689,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #38",
+      "tag": "T.ME: @aristapnel #37",
       "server": "207.126.167.162",
       "server_port": 443,
       "password": "GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K",
@@ -722,13 +705,29 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #39",
+      "tag": "T.ME: @aristapnel #38",
       "server": "207.126.167.241",
       "server_port": 443,
       "password": "GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K",
       "tls": {
         "enabled": true,
         "server_name": "207.126.167.241",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #39",
+      "server": "46.8.113.142",
+      "server_port": 443,
+      "password": "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu",
+      "tls": {
+        "enabled": true,
+        "server_name": "ch-2.bexum.fun",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -823,13 +822,7 @@
       "server_port": 443,
       "password": "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu",
       "tls": {
-        "enabled": true,
-        "server_name": "ch-2.bexum.fun",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "enabled": false
       }
     },
     {
@@ -845,11 +838,17 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #47",
-      "server": "46.8.113.142",
-      "server_port": 443,
+      "server": "94.103.173.70",
+      "server_port": 9443,
       "password": "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "de-1.hysteria.ltd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {

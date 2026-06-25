@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier 100
-// Updated: 2026-06-25 13:09:27
+// Updated: 2026-06-25 13:21:02
 // Count: 8
 
 {
@@ -52,47 +52,15 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #2",
-      "server": "$*@14.29.124.168",
-      "server_port": 25267,
-      "method": "aes-128-cfb",
-      "password": "QazEdcTgb159"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #4",
-      "server": "85.208.108.60",
-      "server_port": 8119,
+      "tag": "ARISTA #16",
+      "server": "3.8.48.222",
+      "server_port": 80,
       "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
+      "password": "dada1203"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #6",
-      "server": "3.1.211.223",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #10",
-      "server": "$*@14.29.124.168",
-      "server_port": 25294,
-      "method": "aes-128-cfb",
-      "password": "QazEdcTgb159"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #11",
-      "server": "85.208.108.18",
-      "server_port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #20",
+      "tag": "ARISTA #29",
       "server": "188.121.123.189",
       "server_port": 4050,
       "method": "chacha20-ietf-poly1305",
@@ -100,19 +68,51 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #23",
+      "tag": "ARISTA #53",
+      "server": "$*@14.29.124.168",
+      "server_port": 25267,
+      "method": "aes-128-cfb",
+      "password": "QazEdcTgb159"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #55",
+      "server": "85.208.108.60",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #57",
+      "server": "3.1.211.223",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #61",
+      "server": "$*@14.29.124.168",
+      "server_port": 25294,
+      "method": "aes-128-cfb",
+      "password": "QazEdcTgb159"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #62",
+      "server": "85.208.108.18",
+      "server_port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #65",
       "server": "20.234.9.106",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "i6qj1Qi9bKvFfIM0"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #43",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203"
     },
     {
       "type": "direct",
@@ -126,14 +126,14 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #2",
-        "ARISTA #4",
-        "ARISTA #6",
-        "ARISTA #10",
-        "ARISTA #11",
-        "ARISTA #20",
-        "ARISTA #23",
-        "ARISTA #43"
+        "ARISTA #16",
+        "ARISTA #29",
+        "ARISTA #53",
+        "ARISTA #55",
+        "ARISTA #57",
+        "ARISTA #61",
+        "ARISTA #62",
+        "ARISTA #65"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -145,14 +145,14 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #2",
-        "ARISTA #4",
-        "ARISTA #6",
-        "ARISTA #10",
-        "ARISTA #11",
-        "ARISTA #20",
-        "ARISTA #23",
-        "ARISTA #43"
+        "ARISTA #16",
+        "ARISTA #29",
+        "ARISTA #53",
+        "ARISTA #55",
+        "ARISTA #57",
+        "ARISTA #61",
+        "ARISTA #62",
+        "ARISTA #65"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

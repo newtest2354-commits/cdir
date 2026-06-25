@@ -1,5 +1,5 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-25 13:09:28
+// Updated: 2026-06-25 13:21:02
 // Count: 6
 
 {
@@ -53,12 +53,12 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
-      "server": "130.49.161.70",
-      "server_port": 443,
-      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "server": "191.101.238.183",
+      "server_port": 54040,
+      "password": "q3tf4lsdoqpgpo4x",
       "tls": {
         "enabled": true,
-        "server_name": "hy2.aspidnet.xyz",
+        "server_name": "191.101.238.183",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -67,7 +67,7 @@
       },
       "obfs": {
         "type": "salamander",
-        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+        "password": "@JynMarket"
       }
     },
     {
@@ -153,12 +153,12 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #6",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
+      "server": "130.49.161.70",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
-        "server_name": "191.101.238.183",
+        "server_name": "hy2.aspidnet.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -167,7 +167,7 @@
       },
       "obfs": {
         "type": "salamander",
-        "password": "@JynMarket"
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
       }
     },
     {
