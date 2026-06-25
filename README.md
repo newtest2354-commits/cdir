@@ -104,6 +104,19 @@
 
 ---
 
+## 🎯 آی‌پی‌های تست‌شده و بهینه
+
+**لیست آی‌پی‌های تأییدشده با کمترین latency و بیشترین پایداری**
+
+| نوع فایل | لینک دسترسی |
+|----------|-------------|
+| **فقط IP** | [مشاهده](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_only.txt) |
+| **IP:PORT** | [مشاهده](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_port.txt) |
+| **کامل با جزئیات** | [مشاهده](https://github.com/newtest2354-commits/testGit/tree/main/best_ip/ip_port_cdn_sni_country_type.txt) |
+| **پوشه کامل** | [مشاهده پوشه](https://github.com/newtest2354-commits/testGit/tree/main/best_ip) |
+
+---
+
 ## 📱 کلاینت‌های پشتیبانی‌شده
 
 | نام کلاینت | سیستم‌عامل | لینک دانلود |
