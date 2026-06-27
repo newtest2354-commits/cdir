@@ -1,9 +1,24 @@
 # TELEGRAM - TROJAN - Tier 50
-# Updated: 2026-06-26 20:00:13
-# Count: 48
+# Updated: 2026-06-27 03:58:30
+# Count: 50
 
 proxies:
 - name: 'ARISTA #1'
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.gossipglove.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.gossipglove.com
+- name: 'ARISTA #2'
   type: trojan
   server: 45.130.125.32
   port: 443
@@ -18,66 +33,51 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.calmloud.com
-- name: 'ARISTA #2'
-  type: trojan
-  server: 45.80.111.7
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.calmlunch.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fassignment'
-    headers:
-      Host: www.calmlunch.com
 - name: 'ARISTA #3'
   type: trojan
-  server: 188.114.97.6
+  server: 151.101.193.242
   port: 443
-  password: humanity
+  password: MiTiVPN
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.calmloud.com
+  servername: f6r.ir
   client-fingerprint: chrome
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Fusa%3Dmitivpn'
     headers:
-      Host: www.calmloud.com
+      Host: f6r.ir
 - name: 'ARISTA #4'
   type: trojan
-  server: 104.16.71.213
+  server: 151.101.56.6
   port: 443
-  password: humanity
+  password: Mitivpn
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.calmlunch.com
+  servername: ssl.fastly.com
   client-fingerprint: chrome
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Ffastly%3Dmitivpn'
     headers:
-      Host: www.calmlunch.com
+      Host: ssl.fastly.com
 - name: 'ARISTA #5'
   type: trojan
-  server: 198.62.62.23
+  server: 151.101.110.219
   port: 443
-  password: humanity
+  password: Mitivpn
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.calmlunch.com
+  servername: ssl.fastly.com
   client-fingerprint: chrome
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Fboost'
     headers:
-      Host: www.calmlunch.com
+      Host: ssl.fastly.com
 - name: 'ARISTA #6'
   type: trojan
   server: 104.16.71.213
@@ -110,213 +110,22 @@ proxies:
       Host: wwww.95r.ir
 - name: 'ARISTA #8'
   type: trojan
-  server: 47.79.85.185
-  port: 443
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  server: 127.0.0.1
+  port: 40443
+  password: humanity
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: tjsp.hhxaf.cc.cd
+  servername: www.calmlunch.com
   client-fingerprint: chrome
   ws-opts:
-    path: '%2F'
+    path: '%2Fassignment'
     headers:
-      Host: tjsp.hhxaf.cc.cd
-- name: 'ARISTA #11'
+      Host: www.calmlunch.com
+- name: 'ARISTA #9'
   type: trojan
-  server: 37.156.44.157
-  port: 8443
-  password: SoftNetConnect
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: play.google.com
-  client-fingerprint: chrome
-- name: 'ARISTA #12'
-  type: trojan
-  server: 89.116.180.49
-  port: 443
-  password: MiTiVPN
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: f6r.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fnl%3Dmitivpn'
-    headers:
-      Host: f6r.ir
-- name: 'ARISTA #13'
-  type: trojan
-  server: 63.184.13.176
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #14'
-  type: trojan
-  server: 13.37.73.8
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #15'
-  type: trojan
-  server: 13.39.98.83
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #16'
-  type: trojan
-  server: 51.102.134.204
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #17'
-  type: trojan
-  server: 18.197.212.181
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #18'
-  type: trojan
-  server: 35.181.180.255
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #19'
-  type: trojan
-  server: 13.39.122.22
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #20'
-  type: trojan
-  server: 3.67.22.69
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #21'
-  type: trojan
-  server: 35.156.114.60
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #22'
-  type: trojan
-  server: 13.39.35.91
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #23'
-  type: trojan
-  server: 51.44.31.162
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #24'
-  type: trojan
-  server: 63.179.83.122
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #25'
-  type: trojan
-  server: 35.157.18.183
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #26'
-  type: trojan
-  server: 13.36.2.68
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #27'
-  type: trojan
-  server: 51.45.15.118
-  port: 22223
-  password: telegram-id-directvpn
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-- name: 'ARISTA #28'
-  type: trojan
-  server: 104.18.152.208
+  server: 104.19.229.21
   port: 443
   password: humanity
   network: ws
@@ -329,9 +138,9 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.ignitelimit.com
-- name: 'ARISTA #29'
+- name: 'ARISTA #10'
   type: trojan
-  server: 104.19.229.21
+  server: 188.114.97.6
   port: 443
   password: humanity
   network: ws
@@ -344,52 +153,127 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.calmlunch.com
-- name: 'ARISTA #30'
+- name: 'ARISTA #11'
   type: trojan
-  server: 104.18.152.229
+  server: 104.16.72.70
   port: 443
-  password: humanity
+  password: MiTiVPN
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.ignitelimit.com
+  servername: linkkon-w.ir
   client-fingerprint: chrome
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Fed%3Dmitivpn'
     headers:
-      Host: www.ignitelimit.com
-- name: 'ARISTA #31'
+      Host: linkkon-w.ir
+- name: 'ARISTA #12'
   type: trojan
-  server: 104.19.229.21
+  server: 104.21.18.41
   port: 443
-  password: humanity
+  password: MiTiVPN
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.gossipglove.com
+  servername: blog.95r.ir
   client-fingerprint: chrome
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Fed%3Dmitivpn'
     headers:
-      Host: www.gossipglove.com
-- name: 'ARISTA #32'
+      Host: blog.95r.ir
+- name: 'ARISTA #13'
   type: trojan
-  server: 104.18.152.187
+  server: 45.130.125.126
   port: 443
-  password: humanity
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.ignitelimit.com
+  servername: space.byu.id.yxls.eu.cc
   client-fingerprint: chrome
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Fau-do'
     headers:
-      Host: www.ignitelimit.com
-- name: 'ARISTA #33'
+      Host: space.byu.id.yxls.eu.cc
+- name: 'ARISTA #14'
+  type: trojan
+  server: 172.66.47.69
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: f6r.ir
+- name: 'ARISTA #15'
+  type: trojan
+  server: 45.130.125.2
+  port: 443
+  password: 7002R3Gxo1
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sa.farxmode.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fda'
+    headers:
+      Host: sa.farxmode.ir
+- name: 'ARISTA #16'
+  type: trojan
+  server: 45.130.125.2
+  port: 443
+  password: P6oS8vzFbu
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sb.farxmode.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fdb'
+    headers:
+      Host: sb.farxmode.ir
+- name: 'ARISTA #17'
+  type: trojan
+  server: 45.130.125.2
+  port: 443
+  password: CHhHZoXQCp
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: se.farxmode.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fda'
+    headers:
+      Host: se.farxmode.ir
+- name: 'ARISTA #18'
+  type: trojan
+  server: 45.130.125.2
+  port: 443
+  password: GavW8e3DN7
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sf.farxmode.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fdb'
+    headers:
+      Host: sf.farxmode.ir
+- name: 'ARISTA #19'
   type: trojan
   server: 63.184.13.176
   port: 22222
@@ -400,7 +284,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #34'
+- name: 'ARISTA #20'
   type: trojan
   server: 13.37.73.8
   port: 22222
@@ -411,7 +295,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #35'
+- name: 'ARISTA #21'
   type: trojan
   server: 13.39.98.83
   port: 22222
@@ -422,7 +306,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #36'
+- name: 'ARISTA #22'
   type: trojan
   server: 51.102.134.204
   port: 22222
@@ -433,7 +317,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #37'
+- name: 'ARISTA #23'
   type: trojan
   server: 18.197.212.181
   port: 22222
@@ -444,7 +328,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #38'
+- name: 'ARISTA #24'
   type: trojan
   server: 35.181.180.255
   port: 22222
@@ -455,7 +339,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #39'
+- name: 'ARISTA #25'
   type: trojan
   server: 13.39.122.22
   port: 22222
@@ -466,7 +350,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #40'
+- name: 'ARISTA #26'
   type: trojan
   server: 3.67.22.69
   port: 22222
@@ -477,7 +361,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #41'
+- name: 'ARISTA #27'
   type: trojan
   server: 35.156.114.60
   port: 22222
@@ -488,7 +372,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #42'
+- name: 'ARISTA #28'
   type: trojan
   server: 13.39.35.91
   port: 22222
@@ -499,7 +383,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #43'
+- name: 'ARISTA #29'
   type: trojan
   server: 51.44.31.162
   port: 22222
@@ -510,7 +394,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #44'
+- name: 'ARISTA #30'
   type: trojan
   server: 63.179.83.122
   port: 22222
@@ -521,7 +405,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #45'
+- name: 'ARISTA #31'
   type: trojan
   server: 35.157.18.183
   port: 22222
@@ -532,7 +416,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #46'
+- name: 'ARISTA #32'
   type: trojan
   server: 13.36.2.68
   port: 22222
@@ -543,7 +427,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #47'
+- name: 'ARISTA #33'
   type: trojan
   server: 51.45.15.118
   port: 22222
@@ -554,18 +438,147 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'ARISTA #48'
+- name: 'ARISTA #34'
   type: trojan
-  server: 172.235.229.227
+  server: 45.77.227.183
   port: 443
-  password: zK%3D0KfL3IG%2BsNNZL-J7d0Nonu4wFBx8MOy
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
   network: tcp
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 172.235.229.227
+  servername: 45.77.227.183
   client-fingerprint: chrome
-- name: 'ARISTA #49'
+- name: 'ARISTA #35'
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: ssl.fastly.com
+- name: 'ARISTA #36'
+  type: trojan
+  server: 94.140.0.100
+  port: 443
+  password: MITIVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 95r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2FMiTiVPN%3DUsa'
+    headers:
+      Host: 95r.ir
+- name: 'ARISTA #37'
+  type: trojan
+  server: 198.202.211.1
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.creationlong.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.creationlong.org
+- name: 'ARISTA #38'
+  type: trojan
+  server: 83.228.251.47
+  port: 2087
+  password: SoftNetConnect
+  network: grpc
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 'ARISTA #39'
+  type: trojan
+  server: 151.101.110.219
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: global.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: global.fastly.com
+- name: 'ARISTA #40'
+  type: trojan
+  server: 45.130.125.126
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: space.byu.id.yxls.eu.cc
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fau-do'
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+- name: 'ARISTA #41'
+  type: trojan
+  server: 151.101.1.242
+  port: 443
+  password: MiTiVPN
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.f6r.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fde%3Dmitivpn'
+    headers:
+      Host: www.f6r.ir
+- name: 'ARISTA #42'
+  type: trojan
+  server: 83.228.226.164
+  port: 8443
+  password: SoftNetConnect
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 'ARISTA #43'
+  type: trojan
+  server: 45.80.111.7
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.calmlunch.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmlunch.com
+- name: 'ARISTA #44'
   type: trojan
   server: 165.215.250.14
   port: 443
@@ -580,7 +593,55 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.calmlunch.com
-- name: 'ARISTA #50'
+- name: 'ARISTA #45'
+  type: trojan
+  server: 185.137.157.59
+  port: 443
+  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.lateralio.click
+  client-fingerprint: chrome
+- name: 'ARISTA #46'
+  type: trojan
+  server: 38.60.202.163
+  port: 443
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 38.60.202.163
+  client-fingerprint: chrome
+- name: 'ARISTA #47'
+  type: trojan
+  server: de-1.hysteria.ltd
+  port: 9443
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: de-1.hysteria.ltd
+  client-fingerprint: chrome
+- name: 'ARISTA #48'
+  type: trojan
+  server: 45.130.125.112
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.calmlunch.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmlunch.com
+- name: 'ARISTA #49'
   type: trojan
   server: 45.77.227.183
   port: 443
@@ -591,6 +652,21 @@ proxies:
   tcp-fast-open: true
   servername: 45.77.227.183
   client-fingerprint: chrome
+- name: 'ARISTA #50'
+  type: trojan
+  server: saas.sin.fan
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: hhcm.hhxaf.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: hhcm.hhxaf.cc.cd
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -608,6 +684,8 @@ proxy-groups:
   - 'ARISTA #6'
   - 'ARISTA #7'
   - 'ARISTA #8'
+  - 'ARISTA #9'
+  - 'ARISTA #10'
   - 'ARISTA #11'
   - 'ARISTA #12'
   - 'ARISTA #13'
