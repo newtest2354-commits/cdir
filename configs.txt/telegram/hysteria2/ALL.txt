@@ -1,5 +1,5 @@
 # TELEGRAM - ALL - HYSTERIA2
-# Updated: 2026-06-28 12:48:58
+# Updated: 2026-06-28 13:06:23
 # Count: 6
 
 hysteria2://653m8mmiy7048p0f@social.klipp.su:443/?obfs=salamander&obfs-password=3sv5vpdl9xr84lyb&sni=social.klipp.su#ARISTA
