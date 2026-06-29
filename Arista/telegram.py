@@ -18,9 +18,8 @@ from bs4 import BeautifulSoup
 
 TEST_URLS = [
     "http://captive.apple.com/hotspot-detect.html",
-    "http://www.gstatic.com/generate_204",
-    "http://connectivitycheck.gstatic.com/generate_204",
-    "http://cloudflare.com/cdn-cgi/trace"
+    "http://cp.cloudflare.com",
+    "http://www.gstatic.com/generate_204"
 ]
 
 class TelegramConfigExtractor:
@@ -672,8 +671,11 @@ class TelegramConfigExtractor:
         self.temp_suspend_file = "configs.txt/telegram/temp_suspend.json"
         self.last_seen_file = "configs.txt/telegram/last_seen.json"
         self.config_hash_cache = {}
-        self.max_workers = 100
-        self.test_timeout = 3
+        self.num_workers = 350
+        self.global_timeout = 18
+        self.http_timeout = 13
+        self.tcp_ping_timeout = 6
+        self.max_retries = 1
         self.load_dead_cache()
         self.load_permanent_blacklist()
         self.load_temp_suspend()
@@ -711,7 +713,7 @@ class TelegramConfigExtractor:
             for url in TEST_URLS:
                 try:
                     test_url = f"http://{server}:{port}/"
-                    response = requests.get(test_url, timeout=self.test_timeout, allow_redirects=True)
+                    response = requests.get(test_url, timeout=self.http_timeout, allow_redirects=True)
                     if response.status_code in [200, 204, 301, 302, 303, 307, 308]:
                         return True
                 except:
@@ -1230,7 +1232,7 @@ class TelegramConfigExtractor:
         alive_configs = []
         dead_configs = 0
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.num_workers) as executor:
             futures = {executor.submit(self.test_config, config): config for config in unique_configs}
             for future in concurrent.futures.as_completed(futures):
                 config = futures[future]
