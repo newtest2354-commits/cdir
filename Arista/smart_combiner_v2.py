@@ -66,17 +66,17 @@ class SmartConfigCombinerV2:
         return dict(port_counts)
 
     def load_configs_by_protocol(self) -> Dict[str, List[str]]:
-        base_path = "configs.txt/combined/ALL"
+        base_path = "configs.txt/combined"
         configs_by_protocol = defaultdict(list)
 
         for protocol in self.protocols:
-            file_path = os.path.join(base_path, f"{protocol}.txt")
+            file_path = os.path.join(base_path, protocol, "ALL.txt")
             if os.path.exists(file_path):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     for line in f:
                         if not line.startswith('#') and line.strip():
                             configs_by_protocol[protocol].append(line.strip())
-                print(f"  ✅ Loaded {len(configs_by_protocol[protocol])} configs from ALL/{protocol}.txt")
+                print(f"  ✅ Loaded {len(configs_by_protocol[protocol])} configs from {protocol}/ALL.txt")
             else:
                 print(f"  ❌ File not found: {file_path}")
 
@@ -296,9 +296,9 @@ class SmartConfigCombinerV2:
         for port, count in sorted(port_distribution.items(), key=lambda x: int(x[0])):
             print(f"  Port {port}: {count} IPs")
 
-        print("\n📡 Loading configs from configs.txt/combined/ALL/...")
+        print("\n📡 Loading configs from configs.txt/combined/*/ALL.txt...")
         configs_by_protocol = self.load_configs_by_protocol()
-        
+
         if not configs_by_protocol:
             print("❌ No configs found!")
             return
@@ -312,7 +312,7 @@ class SmartConfigCombinerV2:
             if not configs:
                 print(f"  ⚠️ {protocol}: No configs found")
                 continue
-                
+
             processed = self.process_protocol(protocol, configs, port_distribution)
 
             if processed:
