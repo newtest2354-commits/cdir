@@ -1,6 +1,6 @@
 // TELEGRAM - ALL - Tier 500
-// Updated: 2026-06-29 13:44:35
-// Count: 8
+// Updated: 2026-06-29 13:54:37
+// Count: 6
 
 {
   "log": {
@@ -53,40 +53,16 @@
     {
       "type": "vless",
       "tag": "ARISTA #1",
-      "server": "undef.network",
-      "server_port": 2052,
-      "uuid": "d3efb5a7-ed80-4cf3-a09c-8e0db55b9872",
+      "server": "fastly.com",
+      "server_port": 80,
+      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
       "tls": {
         "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api-v1",
-        "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
-        }
       }
     },
     {
       "type": "vless",
       "tag": "ARISTA #2",
-      "server": "yeksanaat.ir",
-      "server_port": 2082,
-      "uuid": "536b1843-a13a-4a57-b778-bfc58e6cadb9",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "g1.nybaz.space"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "ARISTA #3",
       "server": "undef.network",
       "server_port": 2052,
       "uuid": "3f914759-1ff5-4f8d-84e9-e2ce956ff2e0",
@@ -103,7 +79,7 @@
     },
     {
       "type": "vless",
-      "tag": "ARISTA #4",
+      "tag": "ARISTA #3",
       "server": "arvancloud.ir",
       "server_port": 80,
       "uuid": "8cacbf52-c2f5-4e0c-9c36-32163e6106d9",
@@ -120,51 +96,41 @@
     },
     {
       "type": "vless",
-      "tag": "ARISTA #5",
-      "server": "fastly.com",
-      "server_port": 80,
-      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
+      "tag": "ARISTA #4",
+      "server": "yeksanaat.ir",
+      "server_port": 2082,
+      "uuid": "536b1843-a13a-4a57-b778-bfc58e6cadb9",
       "tls": {
         "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "g1.nybaz.space"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ARISTA #5",
+      "server": "undef.network",
+      "server_port": 2052,
+      "uuid": "d3efb5a7-ed80-4cf3-a09c-8e0db55b9872",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api-v1",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "ARISTA #6",
-      "server": "fbi.gov",
-      "server_port": 80,
-      "uuid": "493da04d-dca2-4306-acaf-f3005ea69392",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mtn.dgclix.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "ARISTA #7",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "dcb2544a-b257-4267-9200-4b522f0001e6",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worldt.wawariweb.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "ARISTA #8",
       "server": "hikvision-plus.com",
       "server_port": 2052,
       "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
@@ -196,9 +162,7 @@
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
-        "ARISTA #6",
-        "ARISTA #7",
-        "ARISTA #8"
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -215,9 +179,7 @@
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
-        "ARISTA #6",
-        "ARISTA #7",
-        "ARISTA #8"
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

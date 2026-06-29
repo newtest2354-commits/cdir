@@ -1,6 +1,6 @@
 // COMBINED - ALL - Tier 200
-// Updated: 2026-06-29 13:44:35
-// Count: 18
+// Updated: 2026-06-29 13:54:37
+// Count: 6
 
 {
   "log": {
@@ -53,40 +53,16 @@
     {
       "type": "vless",
       "tag": "ARISTA #1",
-      "server": "undef.network",
-      "server_port": 2052,
-      "uuid": "d3efb5a7-ed80-4cf3-a09c-8e0db55b9872",
+      "server": "fastly.com",
+      "server_port": 80,
+      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
       "tls": {
         "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api-v1",
-        "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
-        }
       }
     },
     {
       "type": "vless",
       "tag": "ARISTA #2",
-      "server": "yeksanaat.ir",
-      "server_port": 2082,
-      "uuid": "536b1843-a13a-4a57-b778-bfc58e6cadb9",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "g1.nybaz.space"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "ARISTA #3",
       "server": "undef.network",
       "server_port": 2052,
       "uuid": "3f914759-1ff5-4f8d-84e9-e2ce956ff2e0",
@@ -103,7 +79,7 @@
     },
     {
       "type": "vless",
-      "tag": "ARISTA #4",
+      "tag": "ARISTA #3",
       "server": "arvancloud.ir",
       "server_port": 80,
       "uuid": "8cacbf52-c2f5-4e0c-9c36-32163e6106d9",
@@ -120,51 +96,41 @@
     },
     {
       "type": "vless",
-      "tag": "ARISTA #5",
-      "server": "fastly.com",
-      "server_port": 80,
-      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
+      "tag": "ARISTA #4",
+      "server": "yeksanaat.ir",
+      "server_port": 2082,
+      "uuid": "536b1843-a13a-4a57-b778-bfc58e6cadb9",
       "tls": {
         "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "g1.nybaz.space"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ARISTA #5",
+      "server": "undef.network",
+      "server_port": 2052,
+      "uuid": "d3efb5a7-ed80-4cf3-a09c-8e0db55b9872",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api-v1",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "ARISTA #6",
-      "server": "fbi.gov",
-      "server_port": 80,
-      "uuid": "493da04d-dca2-4306-acaf-f3005ea69392",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mtn.dgclix.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "ARISTA #7",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "dcb2544a-b257-4267-9200-4b522f0001e6",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worldt.wawariweb.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "ARISTA #8",
       "server": "hikvision-plus.com",
       "server_port": 2052,
       "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
@@ -176,169 +142,6 @@
         "path": "api-v1",
         "headers": {
           "Host": "uwu.blueknightnet.qzz.io"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #9",
-      "server": "support.cloudflare.com",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #10",
-      "server": "support.cloudflare.com",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp",
-        "headers": {
-          "Host": "fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #11",
-      "server": "cloudflare-dns.com",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp=randomized",
-        "headers": {
-          "Host": "cnmfangbinxing.cnmfangbinxing-a.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #13",
-      "server": "freefree.fastlynew.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "73738858-0d45-4e31-ac88-2ee8c5e17af7",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #14",
-      "server": "www.visa.com",
-      "server_port": 80,
-      "uuid": "a0af2643-a236-463c-8056-3f71d05eed53",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "shomal-g74f3znf-v2.shomal-321.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #15",
-      "server": "www.visa.com.mt",
-      "server_port": 2086,
-      "uuid": "a0af2643-a236-463c-8056-3f71d05eed53",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "shomal-g74f3znf-v2.shomal-321.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #16",
-      "server": "www.visa.com.sg",
-      "server_port": 2052,
-      "uuid": "6777871b-9cec-48d6-8c82-9741c8d848c8",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "74mnh-wszak9po-v3.74mnh.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #17",
-      "server": "free.tharuwa.store",
-      "server_port": 80,
-      "uuid": "1bcfabf7-c143-4dab-989b-2b663e7e69c8",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/FREE By Tharuwa (0767597317)",
-        "headers": {
-          "Host": "zoom.us"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #18",
-      "server": "fbi.gov",
-      "server_port": 8080,
-      "uuid": "379e6e2a-761b-4e4d-8c9b-00e020acb051",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/WeSC6uBZUBAU3UhXT0",
-        "headers": {
-          "Host": "dawn-hill-7bc8.exhume-skirt-smirk.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #19",
-      "server": "auth.vercel.com",
-      "server_port": 80,
-      "uuid": "f7e3ff36-276c-4477-b6d4-47257500d869",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=3000",
-        "headers": {
-          "Host": "pon.antalmani.mm.am"
         }
       }
     },
@@ -359,19 +162,7 @@
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
-        "ARISTA #6",
-        "ARISTA #7",
-        "ARISTA #8",
-        "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10",
-        "T.ME: @aristapnel #11",
-        "T.ME: @aristapnel #13",
-        "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16",
-        "T.ME: @aristapnel #17",
-        "T.ME: @aristapnel #18",
-        "T.ME: @aristapnel #19"
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -388,19 +179,7 @@
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
-        "ARISTA #6",
-        "ARISTA #7",
-        "ARISTA #8",
-        "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10",
-        "T.ME: @aristapnel #11",
-        "T.ME: @aristapnel #13",
-        "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16",
-        "T.ME: @aristapnel #17",
-        "T.ME: @aristapnel #18",
-        "T.ME: @aristapnel #19"
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

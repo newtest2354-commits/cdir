@@ -1,45 +1,21 @@
 # COMBINED - ALL - Tier 50
-# Updated: 2026-06-29 13:44:31
-# Count: 18
+# Updated: 2026-06-29 13:54:35
+# Count: 6
 
 proxies:
 - name: 'ARISTA #1'
   type: vless
-  server: undef.network
-  port: 2052
-  uuid: d3efb5a7-ed80-4cf3-a09c-8e0db55b9872
-  network: ws
+  server: fastly.com
+  port: 80
+  uuid: da48859d-edf9-4a8c-a026-80910591f284
+  network: xhttp
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: uwu.blueknightnet.qzz.io
+  servername: tignaltofansv8.global.ssl.fastly.net
   client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fapi-v1'
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 'ARISTA #2'
-  type: vless
-  server: yeksanaat.ir
-  port: 2082
-  uuid: 536b1843-a13a-4a57-b778-bfc58e6cadb9
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: g1.nybaz.space
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: g1.nybaz.space
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'ARISTA #3'
   type: vless
   server: undef.network
   port: 2052
@@ -57,7 +33,7 @@ proxies:
       Host: uwu.blueknightnet.qzz.io
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'ARISTA #4'
+- name: 'ARISTA #3'
   type: vless
   server: arvancloud.ir
   port: 80
@@ -75,55 +51,43 @@ proxies:
       Host: panel.thetoex.ir
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #4'
+  type: vless
+  server: yeksanaat.ir
+  port: 2082
+  uuid: 536b1843-a13a-4a57-b778-bfc58e6cadb9
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: g1.nybaz.space
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: g1.nybaz.space
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
 - name: 'ARISTA #5'
   type: vless
-  server: fastly.com
-  port: 80
-  uuid: da48859d-edf9-4a8c-a026-80910591f284
-  network: xhttp
+  server: undef.network
+  port: 2052
+  uuid: d3efb5a7-ed80-4cf3-a09c-8e0db55b9872
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: tignaltofansv8.global.ssl.fastly.net
+  servername: uwu.blueknightnet.qzz.io
   client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fapi-v1'
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
 - name: 'ARISTA #6'
-  type: vless
-  server: fbi.gov
-  port: 80
-  uuid: 493da04d-dca2-4306-acaf-f3005ea69392
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: mtn.dgclix.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: mtn.dgclix.ir
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'ARISTA #7'
-  type: vless
-  server: snapp.ir
-  port: 80
-  uuid: dcb2544a-b257-4267-9200-4b522f0001e6
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: worldt.wawariweb.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: worldt.wawariweb.ir
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'ARISTA #8'
   type: vless
   server: hikvision-plus.com
   port: 2052
@@ -141,174 +105,6 @@ proxies:
       Host: uwu.blueknightnet.qzz.io
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #9'
-  type: vless
-  server: support.cloudflare.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Ffp'
-    headers:
-      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #10'
-  type: vless
-  server: support.cloudflare.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp
-    headers:
-      Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #12'
-  type: vless
-  server: test.fast.hosting-ip.com
-  port: 80
-  uuid: TELEGRAM-CONFiGLiNE-40
-  network: xhttp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: panelvipasli.io
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #13'
-  type: vless
-  server: freefree.fastlynew.hosting-ip.com
-  port: 80
-  uuid: 73738858-0d45-4e31-ac88-2ee8c5e17af7
-  network: xhttp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: freefree1213.global.ssl.fastly.net
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #14'
-  type: vless
-  server: www.visa.com
-  port: 80
-  uuid: a0af2643-a236-463c-8056-3f71d05eed53
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: shomal-g74f3znf-v2.shomal-321.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
-    headers:
-      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #15'
-  type: vless
-  server: www.visa.com.mt
-  port: 2086
-  uuid: a0af2643-a236-463c-8056-3f71d05eed53
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: shomal-g74f3znf-v2.shomal-321.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
-    headers:
-      Host: shomal-g74f3znf-v2.shomal-321.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #16'
-  type: vless
-  server: www.visa.com.sg
-  port: 2052
-  uuid: 6777871b-9cec-48d6-8c82-9741c8d848c8
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 74mnh-wszak9po-v3.74mnh.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
-    headers:
-      Host: 74mnh-wszak9po-v3.74mnh.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #17'
-  type: vless
-  server: free.tharuwa.store
-  port: 80
-  uuid: 1bcfabf7-c143-4dab-989b-2b663e7e69c8
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: zoom.us
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2FFREE%20By%20Tharuwa%20%280767597317%29'
-    headers:
-      Host: zoom.us
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #18'
-  type: vless
-  server: fbi.gov
-  port: 8080
-  uuid: 379e6e2a-761b-4e4d-8c9b-00e020acb051
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: dawn-hill-7bc8.exhume-skirt-smirk.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2FWeSC6uBZUBAU3UhXT0'
-    headers:
-      Host: dawn-hill-7bc8.exhume-skirt-smirk.workers.dev
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #19'
-  type: vless
-  server: auth.vercel.com
-  port: 80
-  uuid: f7e3ff36-276c-4477-b6d4-47257500d869
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: pon.antalmani.mm.am
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F%3Fed%3D3000'
-    headers:
-      Host: pon.antalmani.mm.am
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -324,18 +120,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'T.ME: @aristapnel #9'
-  - 'T.ME: @aristapnel #10'
-  - 'T.ME: @aristapnel #12'
-  - 'T.ME: @aristapnel #13'
-  - 'T.ME: @aristapnel #14'
-  - 'T.ME: @aristapnel #15'
-  - 'T.ME: @aristapnel #16'
-  - 'T.ME: @aristapnel #17'
-  - 'T.ME: @aristapnel #18'
-  - 'T.ME: @aristapnel #19'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204
