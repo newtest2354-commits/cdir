@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 50
-// Updated: 2026-06-29 16:02:47
+// Updated: 2026-06-29 20:15:04
 // Count: 40
 
 {
@@ -250,36 +250,44 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #13",
-      "server": "31.76.28.28",
-      "server_port": 443,
-      "password": "8bc63720-5ec8-45b5-b6a6-9a21ffb490e8",
+      "server": "musicclips.videolinks.ru",
+      "server_port": 8443,
+      "password": "653m8mmiy7048p0f",
       "tls": {
         "enabled": true,
-        "server_name": "31.76.28.28",
+        "server_name": "musicclips.videolinks.ru",
         "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "8zzng75tz4tf82pj"
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #14",
+      "server": "social.klipp.su",
+      "server_port": 443,
+      "password": "653m8mmiy7048p0f",
+      "tls": {
+        "enabled": true,
+        "server_name": "social.klipp.su",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "3sv5vpdl9xr84lyb"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "T.ME: @aristapnel #15",
       "server": "140.245.27.220",
       "server_port": 51000,
       "password": "940f51d6-e0a4-4add-b96b-328e4a84b642",
       "tls": {
         "enabled": true,
         "server_name": "140.245.27.220",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "T.ME: @aristapnel #15",
-      "server": "103.115.109.49",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "103.115.109.49",
         "insecure": true
       }
     },
@@ -298,24 +306,24 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #17",
-      "server": "13.231.108.76",
+      "server": "103.115.109.49",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "13.231.108.76",
+        "server_name": "103.115.109.49",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #18",
-      "server": "202.146.222.174",
+      "server": "13.231.108.76",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "202.146.222.174",
+        "server_name": "13.231.108.76",
         "insecure": true
       }
     },
@@ -334,12 +342,12 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #20",
-      "server": "157.230.222.46",
-      "server_port": 8443,
-      "password": "MySecurePassword123",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "157.230.222.46",
+        "server_name": "202.146.222.174",
         "insecure": true
       }
     },

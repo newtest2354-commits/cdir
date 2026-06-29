@@ -1,6 +1,6 @@
 # GITHUB - TROJAN - Tier 50
-# Updated: 2026-06-29 15:59:19
-# Count: 36
+# Updated: 2026-06-29 20:11:31
+# Count: 39
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -240,6 +240,28 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #19'
   type: trojan
+  server: 51.75.86.196
+  port: 55646
+  password: 03mpolj39zyewzufal2r
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.75.86.196
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #20'
+  type: trojan
+  server: 51.75.86.196
+  port: 55646
+  password: 03mpolj39zyewzufal2r
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.75.86.196
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #21'
+  type: trojan
   server: 104.16.72.70
   port: 443
   password: 6c862415-30d2-4813-8e49-42e99a0bd415
@@ -253,7 +275,7 @@ proxies:
     path: /us-gllc
     headers:
       Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #20'
+- name: 'T.ME: @aristapnel #22'
   type: trojan
   server: 45.130.125.126
   port: 443
@@ -268,22 +290,7 @@ proxies:
     path: /au-do
     headers:
       Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #21'
-  type: trojan
-  server: space.byu.id.yxls.eu.cc
-  port: 443
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: space.byu.id.yxls.eu.cc
-  client-fingerprint: chrome
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #22'
+- name: 'T.ME: @aristapnel #23'
   type: trojan
   server: 213.176.113.98
   port: 2053
@@ -298,128 +305,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #23'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #24'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #25'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #26'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #27'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #28'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #29'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #30'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #31'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #32'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #33'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #37'
   type: trojan
   server: masir_sefid
   port: 443
@@ -430,7 +316,7 @@ proxies:
   tcp-fast-open: true
   servername: store.steampowered.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #45'
+- name: 'T.ME: @aristapnel #32'
   type: trojan
   server: 146.75.116.190
   port: 80
@@ -445,7 +331,7 @@ proxies:
     path: /?https://t.me/app_bedal🇨🇳
     headers:
       Host: 146.75.116.190
-- name: 'T.ME: @aristapnel #47'
+- name: 'T.ME: @aristapnel #33'
   type: trojan
   server: 151.101.110.219
   port: 443
@@ -460,7 +346,7 @@ proxies:
     path: /de
     headers:
       Host: ssl.fastly.com
-- name: 'T.ME: @aristapnel #50'
+- name: 'T.ME: @aristapnel #36'
   type: trojan
   server: 151.101.56.6
   port: 443
@@ -475,6 +361,157 @@ proxies:
     path: /de
     headers:
       Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #38'
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /de
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #39'
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: Mitivpn
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /de
+    headers:
+      Host: ssl.fastly.com
+- name: 'T.ME: @aristapnel #40'
+  type: trojan
+  server: 92.119.35.117
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK%3DCt7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.117
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #41'
+  type: trojan
+  server: 92.119.35.120
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK%3DCt7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.120
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #42'
+  type: trojan
+  server: 92.119.35.123
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK%3DCt7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.123
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #43'
+  type: trojan
+  server: 92.119.35.127
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK%3DCt7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.127
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #44'
+  type: trojan
+  server: 92.119.35.125
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.125
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #45'
+  type: trojan
+  server: 92.119.35.130
+  port: 443
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 92.119.35.130
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #46'
+  type: trojan
+  server: 127.0.0.1
+  port: 1080
+  password: aacbacb-baac-caab-cdba-caccbabaabbc
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 127.0.0.1
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #47'
+  type: trojan
+  server: 127.0.0.1
+  port: 8080
+  password: acacbab-baac-abac-dcab-aacabcbcabcb
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 127.0.0.1
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #48'
+  type: trojan
+  server: 185.137.157.128
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.128
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #49'
+  type: trojan
+  server: 185.137.157.128
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.128
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #50'
+  type: trojan
+  server: 185.137.157.128
+  port: 443
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.137.157.128
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -506,19 +543,22 @@ proxy-groups:
   - 'T.ME: @aristapnel #21'
   - 'T.ME: @aristapnel #22'
   - 'T.ME: @aristapnel #23'
-  - 'T.ME: @aristapnel #24'
-  - 'T.ME: @aristapnel #25'
-  - 'T.ME: @aristapnel #26'
   - 'T.ME: @aristapnel #27'
-  - 'T.ME: @aristapnel #28'
-  - 'T.ME: @aristapnel #29'
-  - 'T.ME: @aristapnel #30'
-  - 'T.ME: @aristapnel #31'
   - 'T.ME: @aristapnel #32'
   - 'T.ME: @aristapnel #33'
-  - 'T.ME: @aristapnel #37'
+  - 'T.ME: @aristapnel #36'
+  - 'T.ME: @aristapnel #38'
+  - 'T.ME: @aristapnel #39'
+  - 'T.ME: @aristapnel #40'
+  - 'T.ME: @aristapnel #41'
+  - 'T.ME: @aristapnel #42'
+  - 'T.ME: @aristapnel #43'
+  - 'T.ME: @aristapnel #44'
   - 'T.ME: @aristapnel #45'
+  - 'T.ME: @aristapnel #46'
   - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
+  - 'T.ME: @aristapnel #49'
   - 'T.ME: @aristapnel #50'
 - name: 🎬 ARISTA STREAM
   type: fallback
