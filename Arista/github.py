@@ -27,9 +27,8 @@ SOURCES = [
 
 TEST_URLS = [
     "http://captive.apple.com/hotspot-detect.html",
-    "http://www.gstatic.com/generate_204",
-    "http://connectivitycheck.gstatic.com/generate_204",
-    "http://cloudflare.com/cdn-cgi/trace"
+    "http://cp.cloudflare.com",
+    "http://www.gstatic.com/generate_204"
 ]
 
 class GitHubConfigExtractor:
@@ -38,8 +37,11 @@ class GitHubConfigExtractor:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
-        self.max_workers = 100
-        self.test_timeout = 3
+        self.num_workers = 350
+        self.global_timeout = 18
+        self.http_timeout = 13
+        self.tcp_ping_timeout = 6
+        self.max_retries = 1
 
     def test_config(self, config):
         try:
@@ -73,7 +75,7 @@ class GitHubConfigExtractor:
             for url in TEST_URLS:
                 try:
                     test_url = f"http://{server}:{port}/"
-                    response = requests.get(test_url, timeout=self.test_timeout, allow_redirects=True)
+                    response = requests.get(test_url, timeout=self.http_timeout, allow_redirects=True)
                     if response.status_code in [200, 204, 301, 302, 303, 307, 308]:
                         return True
                 except:
@@ -332,7 +334,7 @@ class GitHubConfigExtractor:
         alive_configs = []
         dead_configs = 0
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.num_workers) as executor:
             futures = {executor.submit(self.test_config, config): config for config in unique_configs}
             for future in concurrent.futures.as_completed(futures):
                 config = futures[future]
