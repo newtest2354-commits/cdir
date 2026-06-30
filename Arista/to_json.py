@@ -583,7 +583,7 @@ class ConfigToJSONConverter:
                 "rules": [
                     {
                         "action": "sniff",
-                        "timeout": "300ms"
+                        "timeout": "300ms",
                     },
                     {
                         "protocol": "dns",
