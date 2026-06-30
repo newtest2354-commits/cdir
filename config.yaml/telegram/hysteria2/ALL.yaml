@@ -1,6 +1,6 @@
 # TELEGRAM - HYSTERIA2 - Tier ALL
-# Updated: 2026-06-30 19:49:32
-# Count: 7
+# Updated: 2026-06-30 20:06:20
+# Count: 5
 
 mixed-port: 7890
 allow-lan: false
@@ -50,24 +50,24 @@ rules:
 proxies:
 - name: 'ARISTA #1'
   type: hysteria2
-  server: 65.109.177.191
-  port: 443
-  password: t-me-V2RayyNGvpn
-  sni: www.oracle.com
+  server: 80.66.81.78
+  port: 9443
+  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+  sni: tunel1.washing.help
   skip-cert-verify: true
   fast-open: true
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
+  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
 - name: 'ARISTA #2'
   type: hysteria2
-  server: 57.128.108.123
+  server: 130.49.161.70
   port: 443
-  password: v2rayyngvpn
-  sni: www.wordreference.com
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
   skip-cert-verify: true
   fast-open: true
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 'ARISTA #3'
   type: hysteria2
   server: 65.20.114.95
@@ -98,26 +98,6 @@ proxies:
   fast-open: true
   obfs: salamander
   obfs-password: '@JynMarket'
-- name: 'ARISTA #7'
-  type: hysteria2
-  server: 130.49.161.70
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  fast-open: true
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 'ARISTA #8'
-  type: hysteria2
-  server: 80.66.81.78
-  port: 9443
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  sni: tunel1.washing.help
-  skip-cert-verify: true
-  fast-open: true
-  obfs: salamander
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -132,8 +112,6 @@ proxy-groups:
   - 'ARISTA #3'
   - 'ARISTA #4'
   - 'ARISTA #5'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204
