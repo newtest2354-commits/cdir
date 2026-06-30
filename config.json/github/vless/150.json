@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 150
-// Updated: 2026-06-30 20:09:28
+// Updated: 2026-06-30 20:38:13
 // Count: 149
 
 {
@@ -16,24 +16,6 @@
       "inet4_range": "198.18.0.0/15"
     },
     "servers": [
-      {
-        "type": "https",
-        "tag": "shecan",
-        "server": "178.22.122.100",
-        "path": "/dns-query"
-      },
-      {
-        "type": "https",
-        "tag": "403",
-        "server": "185.51.200.2",
-        "path": "/dns-query"
-      },
-      {
-        "type": "https",
-        "tag": "begzar",
-        "server": "10.202.10.202",
-        "path": "/dns-query"
-      },
       {
         "type": "https",
         "tag": "cloudflare",
@@ -60,7 +42,7 @@
         "server": "local"
       }
     ],
-    "final": "shecan"
+    "final": "cloudflare"
   },
   "inbounds": [
     {
@@ -3550,7 +3532,7 @@
   "route": {
     "auto_detect_interface": true,
     "default_domain_resolver": {
-      "server": "shecan",
+      "server": "cloudflare",
       "strategy": "prefer_ipv4"
     },
     "final": "🚀 ARISTA AUTO BEST",

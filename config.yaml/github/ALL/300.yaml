@@ -1,5 +1,5 @@
 # GITHUB - ALL - Tier 300
-# Updated: 2026-06-30 20:06:26
+# Updated: 2026-06-30 20:35:55
 # Count: 294
 
 mixed-port: 7890
@@ -1714,7 +1714,7 @@ proxies:
   server: 212.192.13.91
   port: 30129
   cipher: aes-256-gcm
-  password: 7e1dd4c55bf85da5
+  password: "7e1dd4c55bf85da5"
   udp: true
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #165'
@@ -2524,7 +2524,7 @@ proxies:
   servername: apple.com
   reality-opts:
     public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
-    short-id: 8bcfe256cf216fd8
+    short-id: "8bcfe256cf216fd8"
 - name: 'T.ME: @aristapnel #229'
   type: vless
   server: wolfb24.servers1mart.ir
@@ -2538,7 +2538,7 @@ proxies:
   servername: play.google.com
   reality-opts:
     public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
-    short-id: 42c0b628ba6a42a9
+    short-id: "42c0b628ba6a42a9"
 - name: 'T.ME: @aristapnel #230'
   type: vless
   server: 45.130.125.69
@@ -2569,7 +2569,7 @@ proxies:
   servername: google.com
   reality-opts:
     public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
-    short-id: 9eb31eb7572c0882
+    short-id: "9eb31eb7572c0882"
 - name: 'T.ME: @aristapnel #232'
   type: vless
   server: 51.250.86.102
@@ -2584,7 +2584,7 @@ proxies:
   servername: ads.x5.ru
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: cd57a927f6b72d81
+    short-id: "cd57a927f6b72d81"
 - name: 'T.ME: @aristapnel #233'
   type: vless
   server: 89.106.89.112
@@ -2599,7 +2599,7 @@ proxies:
   servername: www.ibm.com
   reality-opts:
     public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
-    short-id: 4a5b6c7d
+    short-id: "4a5b6c7d"
 - name: 'T.ME: @aristapnel #234'
   type: vless
   server: 103.231.75.185
@@ -2613,7 +2613,7 @@ proxies:
   servername: yahoo.com
   reality-opts:
     public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
-    short-id: 0bce
+    short-id: "0bce"
 - name: 'T.ME: @aristapnel #235'
   type: vless
   server: 45.157.232.144
@@ -2628,7 +2628,7 @@ proxies:
   servername: google.com
   reality-opts:
     public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
-    short-id: 9eb31eb7572c0882
+    short-id: "9eb31eb7572c0882"
 - name: 'T.ME: @aristapnel #236'
   type: vless
   server: 172.67.73.163
@@ -2656,7 +2656,7 @@ proxies:
   servername: google.com
   reality-opts:
     public-key: qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU
-    short-id: 9eb31eb7572c0882
+    short-id: "9eb31eb7572c0882"
 - name: 'T.ME: @aristapnel #238'
   type: vless
   server: 51.38.64.226
@@ -2727,7 +2727,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: -zsPOGrZY1Dlb6eypa5V_OPaLBpT66FX3cSo0mNX8SI
-    short-id: 47ee5c592c1672cf
+    short-id: "47ee5c592c1672cf"
 - name: 'T.ME: @aristapnel #243'
   type: vless
   server: 144.31.24.84
@@ -2742,7 +2742,7 @@ proxies:
   servername: st.okcdn.ru
   reality-opts:
     public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
-    short-id: 39a1eb3ec417cd66
+    short-id: "39a1eb3ec417cd66"
 - name: 'T.ME: @aristapnel #244'
   type: vless
   server: 109.120.182.27
@@ -2757,7 +2757,7 @@ proxies:
   servername: maviks.ru
   reality-opts:
     public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
-    short-id: 0f917152a871e9c0
+    short-id: "0f917152a871e9c0"
 - name: 'T.ME: @aristapnel #245'
   type: vless
   server: 95.164.53.189
@@ -2772,7 +2772,7 @@ proxies:
   servername: max.ru
   reality-opts:
     public-key: eQXsYV276NoiN9SDwuloNrJkX-NU2tDtkMK6ntKQwlg
-    short-id: 701775cae5f3a793
+    short-id: "701775cae5f3a793"
 - name: 'T.ME: @aristapnel #246'
   type: vless
   server: 93.94.51.11
@@ -2786,7 +2786,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: xrzsSwm-PkWv-DgyaFCVd_QELA6YFBtvaDOlQCd7Sj8
-    short-id: e4656850eaed4e86
+    short-id: "e4656850eaed4e86"
 - name: 'T.ME: @aristapnel #247'
   type: vless
   server: 57.129.133.88
@@ -2810,7 +2810,7 @@ proxies:
   servername: apple.com
   reality-opts:
     public-key: cFora2YYa3aZdpWW8vMD9iX97qRKtyLzXv4pWgXoh20
-    short-id: ead461
+    short-id: "ead461"
 - name: 'T.ME: @aristapnel #249'
   type: vless
   server: 51.250.13.191
@@ -2825,7 +2825,7 @@ proxies:
   servername: web.max.ru
   reality-opts:
     public-key: 0esXSTe5YLKpPWeLCiDvQlFwmxZ_pXeTxTdUDiW5_3g
-    short-id: 90a13f
+    short-id: "90a13f"
 - name: 'T.ME: @aristapnel #250'
   type: vless
   server: zyro.adslimit.info
@@ -2849,7 +2849,7 @@ proxies:
   servername: www.refersion.com
   reality-opts:
     public-key: qzm3WJz3wvusnMdBDNbj-XboJZWGqClcXOOcM-LexkQ
-    short-id: e164b85aec8a7422
+    short-id: "e164b85aec8a7422"
 - name: 'T.ME: @aristapnel #252'
   type: vless
   server: 4.182.217.232
@@ -2877,7 +2877,7 @@ proxies:
   servername: yahoo.com
   reality-opts:
     public-key: L0T7BLyB6gtVckvnxryaK-GGd2XwgoJ3YFM9M8kXmho
-    short-id: '7554'
+    short-id: "7554"
 - name: 'T.ME: @aristapnel #254'
   type: vless
   server: 45.248.37.51
@@ -2891,7 +2891,7 @@ proxies:
   servername: yahoo.com
   reality-opts:
     public-key: a3wxOmmJ95RHcuVYvxGusowLy8c6a4amlbS2OxMNTHc
-    short-id: 52ad
+    short-id: "52ad"
 - name: 'T.ME: @aristapnel #255'
   type: vless
   server: spb-node.genadata.online
@@ -2905,7 +2905,7 @@ proxies:
   servername: tradingview.com
   reality-opts:
     public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
-    short-id: 50ed6f6007515d63
+    short-id: "50ed6f6007515d63"
 - name: 'T.ME: @aristapnel #256'
   type: vless
   server: 141.98.4.99
@@ -2920,7 +2920,7 @@ proxies:
   servername: www.techradar.com
   reality-opts:
     public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
-    short-id: 174c6cf22e22
+    short-id: "174c6cf22e22"
 - name: 'T.ME: @aristapnel #257'
   type: vless
   server: 51.250.92.100
@@ -2935,7 +2935,7 @@ proxies:
   servername: ads.x5.ru
   reality-opts:
     public-key: OBR2JYROQB8odK5glVW_KLnsWl3UZ-voyGq_9ihQgTI
-    short-id: d49d578f280fd83a
+    short-id: "d49d578f280fd83a"
 - name: 'T.ME: @aristapnel #258'
   type: vless
   server: germany.scroogethebest.com
@@ -2950,7 +2950,7 @@ proxies:
   servername: germany.scroogethebest.com
   reality-opts:
     public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
+    short-id: "4fa44664f6a566d3"
 - name: 'T.ME: @aristapnel #259'
   type: vless
   server: 45.12.135.99
@@ -2964,7 +2964,7 @@ proxies:
   servername: yahoo.com
   reality-opts:
     public-key: tMbRR1FTvBecmMv3GLv50T21hXHqHxulqWBKwNEW50Q
-    short-id: 822d
+    short-id: "822d"
 - name: 'T.ME: @aristapnel #260'
   type: vless
   server: sc-france2.09vpn.com
@@ -2990,7 +2990,7 @@ proxies:
   servername: at.jojack.ru
   reality-opts:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-    short-id: 8dc4fccb2bcfc99d
+    short-id: "8dc4fccb2bcfc99d"
 - name: 'T.ME: @aristapnel #262'
   type: vless
   server: 144.31.3.253
@@ -3019,7 +3019,7 @@ proxies:
   servername: ads.x5.ru
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 33554379411b3219
+    short-id: "33554379411b3219"
 - name: 'T.ME: @aristapnel #264'
   type: vless
   server: 217.16.27.217
@@ -3034,7 +3034,7 @@ proxies:
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 65ce6cee3941af69
+    short-id: "65ce6cee3941af69"
 - name: 'T.ME: @aristapnel #265'
   type: vless
   server: 158.160.192.103
@@ -3062,7 +3062,7 @@ proxies:
   servername: nl.jojack.ru
   reality-opts:
     public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
-    short-id: 6bb3c7f9f97b45b8
+    short-id: "6bb3c7f9f97b45b8"
 - name: 'T.ME: @aristapnel #267'
   type: vless
   server: 37.9.4.211
@@ -3077,7 +3077,7 @@ proxies:
   servername: 5post-gate.x5.ru
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 6354585c37827955
+    short-id: "6354585c37827955"
 - name: 'T.ME: @aristapnel #268'
   type: vless
   server: 62.141.42.201
@@ -3092,7 +3092,7 @@ proxies:
   servername: google.com
   reality-opts:
     public-key: odbiaA-5s0mkehtfrf2SBcrKAMDP1sFjxKHJYdDCKgc
-    short-id: '81'
+    short-id: "81"
 - name: 'T.ME: @aristapnel #269'
   type: vless
   server: 90.156.215.36
@@ -3107,7 +3107,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: UZZZh7NCnRvU1y7D45FgrZFwIDVIrdLm8TVjx6IudGQ
-    short-id: a1b2c3d4e5f60789
+    short-id: "a1b2c3d4e5f60789"
 - name: 'T.ME: @aristapnel #270'
   type: vless
   server: 158.160.221.132
@@ -3122,7 +3122,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 8f222b3475800821
+    short-id: "8f222b3475800821"
 - name: 'T.ME: @aristapnel #271'
   type: vless
   server: 107.181.151.241
@@ -3137,7 +3137,7 @@ proxies:
   servername: www.microsoft.com
   reality-opts:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 18e4d2d21241
+    short-id: "18e4d2d21241"
 - name: 'T.ME: @aristapnel #272'
   type: vless
   server: 109.120.189.97
@@ -3152,7 +3152,7 @@ proxies:
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: a20d3ed244c76426
+    short-id: "a20d3ed244c76426"
 - name: 'T.ME: @aristapnel #273'
   type: vless
   server: 152.53.49.144
@@ -3168,7 +3168,7 @@ proxies:
     grpc-service-name: grpc
   reality-opts:
     public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
+    short-id: "6ba85179e30d4fc2"
 - name: 'T.ME: @aristapnel #274'
   type: vless
   server: 158.160.221.132
@@ -3183,7 +3183,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 1929ef620e9b34f5
+    short-id: "1929ef620e9b34f5"
 - name: 'T.ME: @aristapnel #275'
   type: vless
   server: 158.160.221.132
@@ -3198,7 +3198,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 1929ef620e9b34f5
+    short-id: "1929ef620e9b34f5"
 - name: 'T.ME: @aristapnel #276'
   type: vless
   server: 89.169.128.105
@@ -3213,7 +3213,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: f4b4a6365558ea2e
+    short-id: "f4b4a6365558ea2e"
 - name: 'T.ME: @aristapnel #277'
   type: vless
   server: 79.174.94.49
@@ -3227,7 +3227,7 @@ proxies:
   servername: ads.x5.ru
   reality-opts:
     public-key: 6_hMGHFRodRl4rUOlv0mJJBC-9en9gNpypLiNqBAuw0
-    short-id: '281902'
+    short-id: "281902"
 - name: 'T.ME: @aristapnel #278'
   type: vless
   server: 178.154.253.80
@@ -3242,7 +3242,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 2715592069f36fe7
+    short-id: "2715592069f36fe7"
 - name: 'T.ME: @aristapnel #279'
   type: vless
   server: 141.98.189.33
@@ -3256,7 +3256,7 @@ proxies:
   servername: yahoo.com
   reality-opts:
     public-key: Qkso5vLwNsJx8xXmMfwzEYXey_XmDMriA9k4uP-negg
-    short-id: a9b6
+    short-id: "a9b6"
 - name: 'T.ME: @aristapnel #280'
   type: vless
   server: 212.233.89.100
@@ -3271,7 +3271,7 @@ proxies:
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM
-    short-id: a1b2c3d4e5f6789a
+    short-id: "a1b2c3d4e5f6789a"
 - name: 'T.ME: @aristapnel #281'
   type: vless
   server: 185.234.57.216
@@ -3285,7 +3285,7 @@ proxies:
   servername: yahoo.com
   reality-opts:
     public-key: 2Z2meC9rRAMD3k52ne8dh8PdfRNpOs5T9yObPyFkXyQ
-    short-id: f9fe
+    short-id: "f9fe"
 - name: 'T.ME: @aristapnel #282'
   type: vless
   server: 144.31.111.130
@@ -3300,7 +3300,7 @@ proxies:
   servername: google.com
   reality-opts:
     public-key: wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ
-    short-id: 9f35da6c9412b832
+    short-id: "9f35da6c9412b832"
 - name: 'T.ME: @aristapnel #283'
   type: vless
   server: 178.154.253.80
@@ -3315,7 +3315,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 2715592069f36fe7
+    short-id: "2715592069f36fe7"
 - name: 'T.ME: @aristapnel #284'
   type: vless
   server: 107.181.147.22
@@ -3330,7 +3330,7 @@ proxies:
   servername: www.techradar.com
   reality-opts:
     public-key: Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE
-    short-id: f6e197a0b9f2
+    short-id: "f6e197a0b9f2"
 - name: 'T.ME: @aristapnel #285'
   type: vless
   server: 158.160.105.121
@@ -3345,7 +3345,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 1929ef620e9b34f5
+    short-id: "1929ef620e9b34f5"
 - name: 'T.ME: @aristapnel #286'
   type: vless
   server: 104.16.9.20
@@ -3387,7 +3387,7 @@ proxies:
   servername: www.microsoft.com
   reality-opts:
     public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: 37e6f3e4339e
+    short-id: "37e6f3e4339e"
 - name: 'T.ME: @aristapnel #289'
   type: vless
   server: 82.22.174.150
@@ -3401,7 +3401,7 @@ proxies:
   servername: ea.com
   reality-opts:
     public-key: 3iQ5QX52pIjouDXoPSfrQRvpqaOTqG26IJLctU7McAY
-    short-id: '02'
+    short-id: "02"
 - name: 'T.ME: @aristapnel #290'
   type: vless
   server: 45.82.251.208
@@ -3425,7 +3425,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 48fccabc158a4c22
+    short-id: "48fccabc158a4c22"
 - name: 'T.ME: @aristapnel #292'
   type: vless
   server: 150.241.94.142
@@ -3441,7 +3441,7 @@ proxies:
     grpc-service-name: vless
   reality-opts:
     public-key: 9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE
-    short-id: ab1c1a11
+    short-id: "ab1c1a11"
 - name: 'T.ME: @aristapnel #293'
   type: vless
   server: 45.130.125.160
@@ -3471,7 +3471,7 @@ proxies:
   servername: m.vk.ru
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 04bf0403f96e5b4b
+    short-id: "04bf0403f96e5b4b"
 - name: 'T.ME: @aristapnel #295'
   type: vless
   server: logggg.nammknammknammknammknammkb2.ir
@@ -3485,7 +3485,7 @@ proxies:
   servername: logggg.nammknammknammknammknammkb2.ir
   reality-opts:
     public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
-    short-id: b3d76d
+    short-id: "b3d76d"
 - name: 'T.ME: @aristapnel #296'
   type: vless
   server: 45.82.251.195
@@ -3531,7 +3531,7 @@ proxies:
   servername: yandex.ru
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 04bf0403f96e5b4b
+    short-id: "04bf0403f96e5b4b"
 - name: 'T.ME: @aristapnel #300'
   type: vless
   server: 212.34.142.191
@@ -3546,7 +3546,7 @@ proxies:
   servername: tradingview.com
   reality-opts:
     public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-    short-id: f7aa9e61197d3ac6
+    short-id: "f7aa9e61197d3ac6"
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test

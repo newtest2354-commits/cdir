@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier 150
-// Updated: 2026-06-30 20:09:27
+// Updated: 2026-06-30 20:38:12
 // Count: 2
 
 {
@@ -16,24 +16,6 @@
       "inet4_range": "198.18.0.0/15"
     },
     "servers": [
-      {
-        "type": "https",
-        "tag": "shecan",
-        "server": "178.22.122.100",
-        "path": "/dns-query"
-      },
-      {
-        "type": "https",
-        "tag": "403",
-        "server": "185.51.200.2",
-        "path": "/dns-query"
-      },
-      {
-        "type": "https",
-        "tag": "begzar",
-        "server": "10.202.10.202",
-        "path": "/dns-query"
-      },
       {
         "type": "https",
         "tag": "cloudflare",
@@ -60,7 +42,7 @@
         "server": "local"
       }
     ],
-    "final": "shecan"
+    "final": "cloudflare"
   },
   "inbounds": [
     {
@@ -84,19 +66,19 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #38",
-      "server": "20.234.9.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "i6qj1Qi9bKvFfIM0"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #41",
+      "tag": "ARISTA #1",
       "server": "109.107.182.229",
       "server_port": 51544,
       "method": "chacha20-ietf-poly1305",
       "password": "4d1nVpqJVp5oq2W4D0Ljy4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #48",
+      "server": "20.234.9.106",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "i6qj1Qi9bKvFfIM0"
     },
     {
       "type": "direct",
@@ -110,8 +92,8 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #38",
-        "ARISTA #41"
+        "ARISTA #1",
+        "ARISTA #48"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -123,8 +105,8 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #38",
-        "ARISTA #41"
+        "ARISTA #1",
+        "ARISTA #48"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -136,7 +118,7 @@
   "route": {
     "auto_detect_interface": true,
     "default_domain_resolver": {
-      "server": "shecan",
+      "server": "cloudflare",
       "strategy": "prefer_ipv4"
     },
     "final": "🚀 ARISTA AUTO BEST",

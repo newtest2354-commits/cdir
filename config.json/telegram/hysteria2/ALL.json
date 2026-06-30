@@ -1,5 +1,5 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-30 20:09:27
+// Updated: 2026-06-30 20:38:12
 // Count: 5
 
 {
@@ -16,24 +16,6 @@
       "inet4_range": "198.18.0.0/15"
     },
     "servers": [
-      {
-        "type": "https",
-        "tag": "shecan",
-        "server": "178.22.122.100",
-        "path": "/dns-query"
-      },
-      {
-        "type": "https",
-        "tag": "403",
-        "server": "185.51.200.2",
-        "path": "/dns-query"
-      },
-      {
-        "type": "https",
-        "tag": "begzar",
-        "server": "10.202.10.202",
-        "path": "/dns-query"
-      },
       {
         "type": "https",
         "tag": "cloudflare",
@@ -60,7 +42,7 @@
         "server": "local"
       }
     ],
-    "final": "shecan"
+    "final": "cloudflare"
   },
   "inbounds": [
     {
@@ -85,26 +67,6 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
-      "server": "80.66.81.78",
-      "server_port": 9443,
-      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
-      "tls": {
-        "enabled": true,
-        "server_name": "tunel1.washing.help",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #2",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -124,7 +86,27 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #3",
+      "tag": "ARISTA #2",
+      "server": "191.101.238.183",
+      "server_port": 54040,
+      "password": "q3tf4lsdoqpgpo4x",
+      "tls": {
+        "enabled": true,
+        "server_name": "191.101.238.183",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "@JynMarket"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #4",
       "server": "65.20.114.95",
       "server_port": 443,
       "password": "V2rayyNGvpn",
@@ -144,7 +126,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #4",
+      "tag": "ARISTA #5",
       "server": "143.14.59.229",
       "server_port": 443,
       "password": "t-me-V2RayyNGvpn",
@@ -164,13 +146,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #5",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
+      "tag": "ARISTA #6",
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
       "tls": {
         "enabled": true,
-        "server_name": "191.101.238.183",
+        "server_name": "tunel1.washing.help",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -179,7 +161,7 @@
       },
       "obfs": {
         "type": "salamander",
-        "password": "@JynMarket"
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
       }
     },
     {
@@ -196,9 +178,9 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
-        "ARISTA #3",
         "ARISTA #4",
-        "ARISTA #5"
+        "ARISTA #5",
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -212,9 +194,9 @@
       "outbounds": [
         "ARISTA #1",
         "ARISTA #2",
-        "ARISTA #3",
         "ARISTA #4",
-        "ARISTA #5"
+        "ARISTA #5",
+        "ARISTA #6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -226,7 +208,7 @@
   "route": {
     "auto_detect_interface": true,
     "default_domain_resolver": {
-      "server": "shecan",
+      "server": "cloudflare",
       "strategy": "prefer_ipv4"
     },
     "final": "🚀 ARISTA AUTO BEST",
