@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 50
-// Updated: 2026-07-01 06:23:09
+// Updated: 2026-07-01 06:42:06
 // Count: 50
 
 {
@@ -40,14 +40,11 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #1",
+      "tag": "ARISTA #1",
       "server": "104.17.131.88",
       "server_port": 443,
       "password": "humanity",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/assignment",
@@ -58,14 +55,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #2",
+      "tag": "ARISTA #2",
       "server": "172.66.44.211",
       "server_port": 443,
       "password": "humanity",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/assignment",
@@ -76,25 +70,19 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #3",
+      "tag": "ARISTA #3",
       "server": "144.31.55.35",
       "server_port": 28126,
       "password": "oJRk-2+NoHJ3N4frj_O2.0CzT+WAgdcs7b",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      }
+      "domain_resolver": "google"
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #4",
+      "tag": "ARISTA #4",
       "server": "104.21.40.34",
       "server_port": 443,
       "password": "humanity",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/assignment",
@@ -105,25 +93,19 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #5",
+      "tag": "ARISTA #5",
       "server": "185.137.157.59",
       "server_port": 443,
       "password": "fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      }
+      "domain_resolver": "google"
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #6",
+      "tag": "ARISTA #6",
       "server": "172.64.147.166",
       "server_port": 443,
       "password": "humanity",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/assignment",
@@ -134,7 +116,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #7",
+      "tag": "ARISTA #7",
       "server": "104.21.40.34",
       "server_port": 443,
       "password": "humanity",
@@ -158,7 +140,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #8",
+      "tag": "ARISTA #8",
       "server": "185.137.157.250",
       "server_port": 443,
       "password": "n-S5Kuz58YgwljisuLEJltip2OWf1ourWz",
@@ -175,7 +157,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #9",
+      "tag": "ARISTA #9",
       "server": "185.137.157.154",
       "server_port": 443,
       "password": "n-S5Kuz58YgwljisuLEJltip2OWf1ourWz",
@@ -192,7 +174,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #10",
+      "tag": "ARISTA #10",
       "server": "104.21.18.41",
       "server_port": 443,
       "password": "MiTiVPN",
@@ -219,7 +201,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #11",
+      "tag": "ARISTA #11",
       "server": "104.16.72.70",
       "server_port": 443,
       "password": "6c862415-30d2-4813-8e49-42e99a0bd415",
@@ -243,7 +225,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #12",
+      "tag": "ARISTA #12",
       "server": "45.130.125.126",
       "server_port": 443,
       "password": "86957ec0-b213-433b-a43b-51f2175e0ec3",
@@ -267,7 +249,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #13",
+      "tag": "ARISTA #13",
       "server": "104.17.121.43",
       "server_port": 443,
       "password": "humanity",
@@ -291,7 +273,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #14",
+      "tag": "ARISTA #14",
       "server": "151.101.110.219",
       "server_port": 443,
       "password": "MITIVPN",
@@ -315,14 +297,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #15",
+      "tag": "ARISTA #15",
       "server": "45.130.125.160",
       "server_port": 443,
       "password": "humanity",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/assignment",
@@ -333,7 +312,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #16",
+      "tag": "ARISTA #16",
       "server": "www.speedtest.net",
       "server_port": 443,
       "password": "0ab59a11983d4ce7862d156c164d927d",
@@ -360,7 +339,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #17",
+      "tag": "ARISTA #17",
       "server": "104.16.174.121",
       "server_port": 443,
       "password": "humanity",
@@ -384,7 +363,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #18",
+      "tag": "ARISTA #18",
       "server": "51.75.86.196",
       "server_port": 55646,
       "password": "03mpolj39zyewzufal2r",
@@ -401,89 +380,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #19",
-      "server": "51.75.86.196",
-      "server_port": 55646,
-      "password": "03mpolj39zyewzufal2r",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "51.75.86.196",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #20",
-      "server": "51.75.86.196",
-      "server_port": 55646,
-      "password": "03mpolj39zyewzufal2r",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "51.75.86.196",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #21",
-      "server": "104.16.72.70",
-      "server_port": 443,
-      "password": "6c862415-30d2-4813-8e49-42e99a0bd415",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "space.byu.id.yxls.eu.cc",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/us-gllc",
-        "headers": {
-          "Host": "space.byu.id.yxls.eu.cc"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #22",
-      "server": "45.130.125.126",
-      "server_port": 443,
-      "password": "86957ec0-b213-433b-a43b-51f2175e0ec3",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "space.byu.id.yxls.eu.cc",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/au-do",
-        "headers": {
-          "Host": "space.byu.id.yxls.eu.cc"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #23",
+      "tag": "ARISTA #19",
       "server": "shazira.app",
       "server_port": 443,
       "password": "8d19cac6-defb-46d1-a84a-a8100a86fd11",
@@ -507,14 +404,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #24",
+      "tag": "ARISTA #20",
       "server": "shazira.app",
       "server_port": 443,
       "password": "8d19cac6-defb-46d1-a84a-a8100a86fd11",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/Novan-ID10",
@@ -525,7 +419,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #25",
+      "tag": "ARISTA #21",
       "server": "213.176.113.98",
       "server_port": 2053,
       "password": "8r<[9'l6hAO#8ZQi",
@@ -549,7 +443,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #26",
+      "tag": "ARISTA #22",
       "server": "119.246.1.143",
       "server_port": 443,
       "password": "BxceQaOe",
@@ -566,7 +460,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #27",
+      "tag": "ARISTA #23",
       "server": "de-1.hysteria.ltd",
       "server_port": 9443,
       "password": "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu",
@@ -583,31 +477,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #28",
-      "server": "151.101.110.219",
-      "server_port": 443,
-      "password": "MITIVPN",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "global.fastly.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ed=mitivpn",
-        "headers": {
-          "Host": "global.fastly.com"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #29",
+      "tag": "ARISTA #24",
       "server": "164.38.155.135",
       "server_port": 443,
       "password": "MITIVPN",
@@ -634,14 +504,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #30",
+      "tag": "ARISTA #25",
       "server": "94.140.0.100",
       "server_port": 443,
       "password": "MITIVPN",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/MiTiVPN=Usa",
@@ -652,7 +519,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #31",
+      "tag": "ARISTA #26",
       "server": "94.140.0.100",
       "server_port": 443,
       "password": "MITIVPN",
@@ -679,7 +546,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #32",
+      "tag": "ARISTA #27",
       "server": "masir_sefid",
       "server_port": 443,
       "password": "Masir_Sefid",
@@ -701,34 +568,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #33",
-      "server": "104.21.18.41",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "linkkon-w.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn=mitivpn",
-        "headers": {
-          "Host": "linkkon-w.ir"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #34",
+      "tag": "ARISTA #28",
       "server": "199.181.197.176",
       "server_port": 443,
       "password": "MiTiVPN",
@@ -755,7 +595,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #35",
+      "tag": "ARISTA #29",
       "server": "45.131.4.118",
       "server_port": 443,
       "password": "MiTiVPN",
@@ -782,7 +622,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #36",
+      "tag": "ARISTA #30",
       "server": "91.193.58.201",
       "server_port": 443,
       "password": "MiTiVPN",
@@ -809,14 +649,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #37",
+      "tag": "ARISTA #31",
       "server": "146.75.116.190",
       "server_port": 80,
       "password": "Mitivpn",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/?https://t.me/app_bedal🇨🇳",
@@ -827,14 +664,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #38",
+      "tag": "ARISTA #32",
       "server": "151.101.242.172",
       "server_port": 80,
       "password": "Mitivpn",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/ed=mitivpn",
@@ -845,14 +679,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #39",
+      "tag": "ARISTA #33",
       "server": "167.82.101.251",
       "server_port": 443,
       "password": "Mitivpn",
       "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      },
       "transport": {
         "type": "ws",
         "path": "/de",
@@ -863,18 +694,15 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #40",
+      "tag": "ARISTA #34",
       "server": "149.104.104.58",
       "server_port": 443,
       "password": "S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      }
+      "domain_resolver": "google"
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #41",
+      "tag": "ARISTA #35",
       "server": "103.125.216.18",
       "server_port": 443,
       "password": "T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf",
@@ -891,7 +719,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #42",
+      "tag": "ARISTA #36",
       "server": "103.125.216.68",
       "server_port": 443,
       "password": "T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf",
@@ -908,7 +736,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #43",
+      "tag": "ARISTA #37",
       "server": "38.60.202.163",
       "server_port": 443,
       "password": "ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed",
@@ -925,24 +753,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #44",
-      "server": "38.60.202.163",
-      "server_port": 443,
-      "password": "ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "38.60.202.163",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #45",
+      "tag": "ARISTA #38",
       "server": "92.119.35.117",
       "server_port": 443,
       "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
@@ -959,7 +770,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #46",
+      "tag": "ARISTA #39",
       "server": "92.119.35.120",
       "server_port": 443,
       "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
@@ -976,7 +787,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #47",
+      "tag": "ARISTA #40",
       "server": "92.119.35.123",
       "server_port": 443,
       "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
@@ -993,7 +804,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #48",
+      "tag": "ARISTA #41",
       "server": "92.119.35.127",
       "server_port": 443,
       "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
@@ -1010,31 +821,11 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #49",
+      "tag": "ARISTA #42",
       "server": "92.119.35.125",
       "server_port": 443,
       "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #50",
-      "server": "92.119.35.127",
-      "server_port": 443,
-      "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
-      "domain_resolver": "google",
-      "tls": {
-        "enabled": true,
-        "server_name": "92.119.35.127",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "domain_resolver": "google"
     },
     {
       "type": "direct",
@@ -1048,121 +839,52 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "T.ME: @aristapnel #1",
-        "T.ME: @aristapnel #2",
-        "T.ME: @aristapnel #3",
-        "T.ME: @aristapnel #4",
-        "T.ME: @aristapnel #5",
-        "T.ME: @aristapnel #6",
-        "T.ME: @aristapnel #7",
-        "T.ME: @aristapnel #8",
-        "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10",
-        "T.ME: @aristapnel #11",
-        "T.ME: @aristapnel #12",
-        "T.ME: @aristapnel #13",
-        "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16",
-        "T.ME: @aristapnel #17",
-        "T.ME: @aristapnel #18",
-        "T.ME: @aristapnel #19",
-        "T.ME: @aristapnel #20",
-        "T.ME: @aristapnel #21",
-        "T.ME: @aristapnel #22",
-        "T.ME: @aristapnel #23",
-        "T.ME: @aristapnel #24",
-        "T.ME: @aristapnel #25",
-        "T.ME: @aristapnel #26",
-        "T.ME: @aristapnel #27",
-        "T.ME: @aristapnel #28",
-        "T.ME: @aristapnel #29",
-        "T.ME: @aristapnel #30",
-        "T.ME: @aristapnel #31",
-        "T.ME: @aristapnel #32",
-        "T.ME: @aristapnel #33",
-        "T.ME: @aristapnel #34",
-        "T.ME: @aristapnel #35",
-        "T.ME: @aristapnel #36",
-        "T.ME: @aristapnel #37",
-        "T.ME: @aristapnel #38",
-        "T.ME: @aristapnel #39",
-        "T.ME: @aristapnel #40",
-        "T.ME: @aristapnel #41",
-        "T.ME: @aristapnel #42",
-        "T.ME: @aristapnel #43",
-        "T.ME: @aristapnel #44",
-        "T.ME: @aristapnel #45",
-        "T.ME: @aristapnel #46",
-        "T.ME: @aristapnel #47",
-        "T.ME: @aristapnel #48",
-        "T.ME: @aristapnel #49",
-        "T.ME: @aristapnel #50"
+        "ARISTA #1",
+        "ARISTA #2",
+        "ARISTA #3",
+        "ARISTA #4",
+        "ARISTA #5",
+        "ARISTA #6",
+        "ARISTA #7",
+        "ARISTA #8",
+        "ARISTA #9",
+        "ARISTA #10",
+        "ARISTA #11",
+        "ARISTA #12",
+        "ARISTA #13",
+        "ARISTA #14",
+        "ARISTA #15",
+        "ARISTA #16",
+        "ARISTA #17",
+        "ARISTA #18",
+        "ARISTA #19",
+        "ARISTA #20",
+        "ARISTA #21",
+        "ARISTA #22",
+        "ARISTA #23",
+        "ARISTA #24",
+        "ARISTA #25",
+        "ARISTA #26",
+        "ARISTA #27",
+        "ARISTA #28",
+        "ARISTA #29",
+        "ARISTA #30",
+        "ARISTA #31",
+        "ARISTA #32",
+        "ARISTA #33",
+        "ARISTA #34",
+        "ARISTA #35",
+        "ARISTA #36",
+        "ARISTA #37",
+        "ARISTA #38",
+        "ARISTA #39",
+        "ARISTA #40",
+        "ARISTA #41",
+        "ARISTA #42"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
       "tolerance": 30,
-      "idle_timeout": "20m",
-      "interrupt_exist_connections": true
-    },
-    {
-      "type": "urltest",
-      "tag": "🎯 ARISTA MANUAL TESTED",
-      "outbounds": [
-        "T.ME: @aristapnel #1",
-        "T.ME: @aristapnel #2",
-        "T.ME: @aristapnel #3",
-        "T.ME: @aristapnel #4",
-        "T.ME: @aristapnel #5",
-        "T.ME: @aristapnel #6",
-        "T.ME: @aristapnel #7",
-        "T.ME: @aristapnel #8",
-        "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10",
-        "T.ME: @aristapnel #11",
-        "T.ME: @aristapnel #12",
-        "T.ME: @aristapnel #13",
-        "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16",
-        "T.ME: @aristapnel #17",
-        "T.ME: @aristapnel #18",
-        "T.ME: @aristapnel #19",
-        "T.ME: @aristapnel #20",
-        "T.ME: @aristapnel #21",
-        "T.ME: @aristapnel #22",
-        "T.ME: @aristapnel #23",
-        "T.ME: @aristapnel #24",
-        "T.ME: @aristapnel #25",
-        "T.ME: @aristapnel #26",
-        "T.ME: @aristapnel #27",
-        "T.ME: @aristapnel #28",
-        "T.ME: @aristapnel #29",
-        "T.ME: @aristapnel #30",
-        "T.ME: @aristapnel #31",
-        "T.ME: @aristapnel #32",
-        "T.ME: @aristapnel #33",
-        "T.ME: @aristapnel #34",
-        "T.ME: @aristapnel #35",
-        "T.ME: @aristapnel #36",
-        "T.ME: @aristapnel #37",
-        "T.ME: @aristapnel #38",
-        "T.ME: @aristapnel #39",
-        "T.ME: @aristapnel #40",
-        "T.ME: @aristapnel #41",
-        "T.ME: @aristapnel #42",
-        "T.ME: @aristapnel #43",
-        "T.ME: @aristapnel #44",
-        "T.ME: @aristapnel #45",
-        "T.ME: @aristapnel #46",
-        "T.ME: @aristapnel #47",
-        "T.ME: @aristapnel #48",
-        "T.ME: @aristapnel #49",
-        "T.ME: @aristapnel #50"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50,
       "idle_timeout": "20m",
       "interrupt_exist_connections": true
     }
@@ -1170,7 +892,7 @@
   "route": {
     "auto_detect_interface": true,
     "default_domain_resolver": "google",
-    "final": "T.ME: @aristapnel #1",
+    "final": "🚀 ARISTA AUTO BEST",
     "rules": [
       {
         "protocol": "dns",
