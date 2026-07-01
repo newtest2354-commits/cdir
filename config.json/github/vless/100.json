@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 100
-// Updated: 2026-07-01 05:55:30
+// Updated: 2026-07-01 06:23:09
 // Count: 100
 
 {
@@ -44,6 +44,7 @@
       "server": "94.131.123.167",
       "server_port": 443,
       "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
@@ -66,6 +67,7 @@
       "server": "wolfb24.servers1mart.ir",
       "server_port": 2096,
       "uuid": "3f42b528-59ef-45f9-9ba3-6292ca46f909",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
@@ -87,6 +89,7 @@
       "server": "45.130.125.69",
       "server_port": 8443,
       "uuid": "cff6f361-828a-43c8-a8b5-8d10b32e57fb",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "zh.hollowspot.ir",
@@ -113,6 +116,7 @@
       "server": "45.145.41.35",
       "server_port": 443,
       "uuid": "18f72be7-0651-4037-928b-8a309d685796",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -135,6 +139,7 @@
       "server": "51.250.86.102",
       "server_port": 443,
       "uuid": "53b2c46d-bc0a-4696-9d87-6bfa77a60d1f",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
@@ -157,6 +162,7 @@
       "server": "89.106.89.112",
       "server_port": 2053,
       "uuid": "07cd9dbe-21ac-4871-817d-c772687e4b7c",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.ibm.com",
@@ -179,6 +185,7 @@
       "server": "103.231.75.185",
       "server_port": 443,
       "uuid": "c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -200,6 +207,7 @@
       "server": "45.157.232.144",
       "server_port": 443,
       "uuid": "18f72be7-0651-4037-928b-8a309d685796",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -222,6 +230,7 @@
       "server": "172.67.73.163",
       "server_port": 2087,
       "uuid": "d1b421cc-ebaf-48cf-bf12-e7947af11c53",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "rahgozar.italiantourism.net.",
@@ -241,6 +250,7 @@
       "server": "194.107.126.157",
       "server_port": 443,
       "uuid": "18f72be7-0651-4037-928b-8a309d685796",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -263,6 +273,7 @@
       "server": "51.38.64.226",
       "server_port": 2345,
       "uuid": "d3b5fdf3-bdcb-4dec-b46b-c06b5d828f73",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       }
@@ -273,6 +284,7 @@
       "server": "45.130.125.198",
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "cd11.thisiswe.uno",
@@ -296,6 +308,7 @@
       "server": "glob.thisiswe.uno",
       "server_port": 8443,
       "uuid": "aab1a536-7a2c-4357-a0e0-8cdde41845c6",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "nobitex.sylu.net",
@@ -322,6 +335,7 @@
       "server": "192.248.180.137",
       "server_port": 443,
       "uuid": "dcce2ead-cd2d-46b4-9293-b1dbc2968205",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "instxrpt.samanidempire.org",
@@ -348,6 +362,7 @@
       "server": "109.172.55.157",
       "server_port": 19547,
       "uuid": "f9cdb2e1-939c-4470-b322-14b7313dec48",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -369,6 +384,7 @@
       "server": "144.31.24.84",
       "server_port": 443,
       "uuid": "1d6705da-0790-49bf-bf47-b166d2e945cf",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "st.okcdn.ru",
@@ -391,6 +407,7 @@
       "server": "109.120.182.27",
       "server_port": 443,
       "uuid": "854bc0e4-fd37-4d26-b7a3-a744688dcfc4",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "maviks.ru",
@@ -413,6 +430,7 @@
       "server": "95.164.53.189",
       "server_port": 443,
       "uuid": "6851246f-01da-434b-b2d4-4401380bd290",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "max.ru",
@@ -435,6 +453,7 @@
       "server": "93.94.51.11",
       "server_port": 53320,
       "uuid": "c1e66fa3-951b-436c-a95a-b2abbaecb195",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -456,6 +475,7 @@
       "server": "57.129.133.88",
       "server_port": 2345,
       "uuid": "7007111a-c28b-4ab1-8d28-bc7b42681028",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       }
@@ -466,6 +486,7 @@
       "server": "31.170.22.193",
       "server_port": 47997,
       "uuid": "7177f5c4-f26a-4ab5-820f-62cb6ba649f7",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
@@ -488,6 +509,7 @@
       "server": "51.250.13.191",
       "server_port": 443,
       "uuid": "6d8b19b9-6d0c-4844-93d8-e1b87f72226b",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "web.max.ru",
@@ -510,6 +532,7 @@
       "server": "zyro.adslimit.info",
       "server_port": 2345,
       "uuid": "d3b5fdf3-bdcb-4dec-b46b-c06b5d828f73",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       }
@@ -520,6 +543,7 @@
       "server": "91.132.51.160",
       "server_port": 443,
       "uuid": "fed05faf-401f-3412-b658-5c96f3095dd0",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.refersion.com",
@@ -542,6 +566,7 @@
       "server": "4.182.217.232",
       "server_port": 443,
       "uuid": "43be0d98-e27c-5a0f-bab7-674338e58012",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "jina-4182217232-direct.yektanet.co",
@@ -563,6 +588,7 @@
       "server": "152.53.116.71",
       "server_port": 443,
       "uuid": "1e878456-0f00-4a85-99a6-1d69bdc62e3d",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -584,6 +610,7 @@
       "server": "45.248.37.51",
       "server_port": 443,
       "uuid": "324e174b-fe3d-41fc-97c0-6fb7492cb015",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -605,6 +632,7 @@
       "server": "spb-node.genadata.online",
       "server_port": 2040,
       "uuid": "14818654-7689-453a-9a1f-4c72f89782d5",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "tradingview.com",
@@ -626,6 +654,7 @@
       "server": "141.98.4.99",
       "server_port": 443,
       "uuid": "79149019-5abe-46f9-91ae-e1e7d1d2c408",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.techradar.com",
@@ -648,6 +677,7 @@
       "server": "51.250.92.100",
       "server_port": 443,
       "uuid": "fd325093-cdb5-4a73-980e-af2ec0444310",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
@@ -670,6 +700,7 @@
       "server": "germany.scroogethebest.com",
       "server_port": 443,
       "uuid": "ccedb1b1-35f3-46d1-a85a-c699eef5f3e1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "germany.scroogethebest.com",
@@ -692,6 +723,7 @@
       "server": "45.12.135.99",
       "server_port": 443,
       "uuid": "bd3649eb-1f72-4629-8d20-ee640b03f0e1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -713,6 +745,7 @@
       "server": "sc-france2.09vpn.com",
       "server_port": 80,
       "uuid": "ea6b03ef-8356-4a8c-abe4-eade7a4806e4",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -730,6 +763,7 @@
       "server": "152.53.46.200",
       "server_port": 443,
       "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "at.jojack.ru",
@@ -752,6 +786,7 @@
       "server": "144.31.3.253",
       "server_port": 443,
       "uuid": "6824d622-0f9f-4327-9201-87e59808d0de",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.yandex.ru",
@@ -773,6 +808,7 @@
       "server": "51.250.83.255",
       "server_port": 443,
       "uuid": "53b2c46d-bc0a-4696-9d87-6bfa77a60d1f",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
@@ -795,6 +831,7 @@
       "server": "217.16.27.217",
       "server_port": 443,
       "uuid": "b4f272ea-cd4f-4df9-9929-1c6b49c0b6ac",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "api-maps.yandex.ru",
@@ -817,6 +854,7 @@
       "server": "158.160.192.103",
       "server_port": 443,
       "uuid": "dcd4ddb5-c4a9-43f4-af3e-bb35dfea702a",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
@@ -838,6 +876,7 @@
       "server": "80.75.212.10",
       "server_port": 443,
       "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "nl.jojack.ru",
@@ -860,6 +899,7 @@
       "server": "37.9.4.211",
       "server_port": 443,
       "uuid": "b4f272ea-cd4f-4df9-9929-1c6b49c0b6ac",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "5post-gate.x5.ru",
@@ -882,6 +922,7 @@
       "server": "62.141.42.201",
       "server_port": 443,
       "uuid": "cc976b15-418b-4f0b-89ce-cd685ffbaf20",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -904,6 +945,7 @@
       "server": "90.156.215.36",
       "server_port": 5443,
       "uuid": "143c5a34-a4c2-4cfb-ba68-6a298152eb98",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -926,6 +968,7 @@
       "server": "158.160.221.132",
       "server_port": 8443,
       "uuid": "dcb72c52-2950-4df0-a26a-560c8af188b1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -948,6 +991,7 @@
       "server": "107.181.151.241",
       "server_port": 443,
       "uuid": "455cfdc6-9abf-4e40-863f-5ff6cc63457c",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
@@ -970,6 +1014,7 @@
       "server": "109.120.189.97",
       "server_port": 7443,
       "uuid": "0adc7c2b-a11b-4470-964e-e79d256dd1d0",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "api-maps.yandex.ru",
@@ -992,6 +1037,7 @@
       "server": "152.53.49.144",
       "server_port": 22955,
       "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "one-piece.com",
@@ -1017,6 +1063,7 @@
       "server": "158.160.221.132",
       "server_port": 51102,
       "uuid": "dcb72c52-2950-4df0-a26a-560c8af188b1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1039,6 +1086,7 @@
       "server": "158.160.221.132",
       "server_port": 443,
       "uuid": "dcb72c52-2950-4df0-a26a-560c8af188b1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1061,6 +1109,7 @@
       "server": "89.169.128.105",
       "server_port": 8443,
       "uuid": "02ac649d-ed68-4bd4-85e8-dc854dee4df7",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1083,6 +1132,7 @@
       "server": "79.174.94.49",
       "server_port": 14065,
       "uuid": "5eb1160d-e6e4-4918-942a-3e02dc4450d4",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
@@ -1104,6 +1154,7 @@
       "server": "178.154.253.80",
       "server_port": 8443,
       "uuid": "02ac649d-ed68-4bd4-85e8-dc854dee4df7",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1126,6 +1177,7 @@
       "server": "141.98.189.33",
       "server_port": 443,
       "uuid": "0021b61a-eb62-41c6-a347-99b1dbd4b1f8",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -1147,6 +1199,7 @@
       "server": "212.233.89.100",
       "server_port": 40443,
       "uuid": "691e4bc8-2eb3-4375-a4b6-99643221a0f7",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "api-maps.yandex.ru",
@@ -1169,6 +1222,7 @@
       "server": "185.234.57.216",
       "server_port": 443,
       "uuid": "b824f264-8cc3-4669-9f60-47b51ed1aa11",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -1190,6 +1244,7 @@
       "server": "144.31.111.130",
       "server_port": 443,
       "uuid": "a384c715-aeb5-45e8-859b-f687ca6c083f",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -1212,6 +1267,7 @@
       "server": "178.154.253.80",
       "server_port": 443,
       "uuid": "02ac649d-ed68-4bd4-85e8-dc854dee4df7",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1234,6 +1290,7 @@
       "server": "107.181.147.22",
       "server_port": 443,
       "uuid": "5e18094c-18b1-4198-b211-96b40518cecf",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.techradar.com",
@@ -1256,6 +1313,7 @@
       "server": "158.160.105.121",
       "server_port": 443,
       "uuid": "dcb72c52-2950-4df0-a26a-560c8af188b1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1278,6 +1336,7 @@
       "server": "104.16.9.20",
       "server_port": 443,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "pqh30v5.carwashipdir.shop",
@@ -1301,6 +1360,7 @@
       "server": "104.21.33.123",
       "server_port": 443,
       "uuid": "472b07d2-31e4-41ab-ae47-48914d9b7900",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "fi.unoix.io",
@@ -1324,6 +1384,7 @@
       "server": "46.249.109.128",
       "server_port": 443,
       "uuid": "9f1b677f-aeea-43a9-9927-12188cdc1249",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
@@ -1346,6 +1407,7 @@
       "server": "82.22.174.150",
       "server_port": 50855,
       "uuid": "853d23ee-38c6-41bb-a51c-8aea6a25b0bd",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ea.com",
@@ -1367,6 +1429,7 @@
       "server": "45.82.251.208",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -1381,6 +1444,7 @@
       "server": "84.252.143.25",
       "server_port": 8443,
       "uuid": "1f85a9ee-0420-4eb4-94b4-4fcf7f9e9ddb",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1403,6 +1467,7 @@
       "server": "150.241.94.142",
       "server_port": 7443,
       "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
@@ -1428,6 +1493,7 @@
       "server": "45.130.125.160",
       "server_port": 2053,
       "uuid": "e52d56bb-8376-408e-92d7-cdd896efd3c4",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "jafarservices.jafarghasemiturk.ir",
@@ -1451,6 +1517,7 @@
       "server": "79.137.175.44",
       "server_port": 8443,
       "uuid": "aa33c2f4-46bc-4818-bf50-723a1e8d33d0",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "m.vk.ru",
@@ -1473,6 +1540,7 @@
       "server": "logggg.nammknammknammknammknammkb2.ir",
       "server_port": 443,
       "uuid": "d4de1f64-bf3c-4d97-9663-0091f8c07359",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "logggg.nammknammknammknammknammkb2.ir",
@@ -1494,6 +1562,7 @@
       "server": "45.82.251.195",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -1508,6 +1577,7 @@
       "server": "198.50.119.86",
       "server_port": 8080,
       "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -1525,6 +1595,7 @@
       "server": "45.82.251.249",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -1539,6 +1610,7 @@
       "server": "84.252.143.25",
       "server_port": 443,
       "uuid": "aa33c2f4-46bc-4818-bf50-723a1e8d33d0",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1561,6 +1633,7 @@
       "server": "212.34.142.191",
       "server_port": 8443,
       "uuid": "a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "tradingview.com",
@@ -1583,6 +1656,7 @@
       "server": "172.67.200.203",
       "server_port": 443,
       "uuid": "4c205c81-5694-43fe-a287-af563a2ebc05",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "r4.bb0.ccwu.cc",
@@ -1606,6 +1680,7 @@
       "server": "141.101.120.21",
       "server_port": 80,
       "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -1623,6 +1698,7 @@
       "server": "dns.dressforida.monster",
       "server_port": 443,
       "uuid": "1ebb7caf-8704-48de-adbb-30b0b821c650",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
@@ -1645,6 +1721,7 @@
       "server": "178.154.222.55",
       "server_port": 8080,
       "uuid": "a001c9c4-ece2-4dc1-9658-cbad90fcd2e0",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "max.ru",
@@ -1665,6 +1742,7 @@
       "server": "nl.jojack.ru",
       "server_port": 443,
       "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "nl.jojack.ru",
@@ -1687,6 +1765,7 @@
       "server": "66.179.82.126",
       "server_port": 443,
       "uuid": "b1267991-59ff-4b67-b141-97e3ced4e7c8",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -1708,6 +1787,7 @@
       "server": "142.111.162.39",
       "server_port": 443,
       "uuid": "9a6f3933-590c-4fa6-8957-298a8b8a94bd",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.mozilla.org",
@@ -1730,6 +1810,7 @@
       "server": "45.151.30.173",
       "server_port": 8443,
       "uuid": "d25caaab-e4b7-419f-9753-7229c7287f55",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "ang12.fasssst.ru",
@@ -1752,6 +1833,7 @@
       "server": "104.21.76.174",
       "server_port": 80,
       "uuid": "13ad36e6-c091-43f2-8505-47d868dd544c",
+      "domain_resolver": "google",
       "tls": {
         "enabled": false
       },
@@ -1769,6 +1851,7 @@
       "server": "62.60.177.167",
       "server_port": 443,
       "uuid": "6670529b-265a-4ee9-b944-bdaee2638ef2",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "st.ozone.ru",
@@ -1791,6 +1874,7 @@
       "server": "84.252.136.245",
       "server_port": 443,
       "uuid": "bace8139-2adc-48ed-ace5-a2cc9720e31d",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1813,6 +1897,7 @@
       "server": "5.34.179.145",
       "server_port": 3443,
       "uuid": "8c7298ae-3b08-4ee4-b396-093de579da19",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -1835,6 +1920,7 @@
       "server": "158.160.105.121",
       "server_port": 51102,
       "uuid": "dcb72c52-2950-4df0-a26a-560c8af188b1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1857,6 +1943,7 @@
       "server": "staging.lastilhame.monster",
       "server_port": 443,
       "uuid": "2ba7f500-017b-4891-87a0-e4e62a4ad52d",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
@@ -1879,6 +1966,7 @@
       "server": "104.21.32.229",
       "server_port": 443,
       "uuid": "4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "vbhj.dddct.us.ci",
@@ -1902,6 +1990,7 @@
       "server": "84.252.136.245",
       "server_port": 8443,
       "uuid": "889eadd1-2b46-42c6-b028-ca6fc27f28a3",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -1924,6 +2013,7 @@
       "server": "142.248.80.157",
       "server_port": 443,
       "uuid": "4aff5de5-83dc-43c9-a33e-10e6fdb90ed2",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
@@ -1945,6 +2035,7 @@
       "server": "104.21.94.95",
       "server_port": 443,
       "uuid": "d5604db8-1f31-403d-a315-d8bafc70f7d2",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "njkkl.5nn.ccwu.cc",
@@ -1968,6 +2059,7 @@
       "server": "66.42.54.48",
       "server_port": 22539,
       "uuid": "d6d7e024-0a49-483d-bcd7-048c4d30eca6",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "node1.nanonet.host",
@@ -1984,6 +2076,7 @@
       "server": "172.234.130.82",
       "server_port": 10001,
       "uuid": "53cd8178-2ee6-43d9-a2a7-881f287fd408",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -2005,6 +2098,7 @@
       "server": "5.182.38.91",
       "server_port": 17267,
       "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -2026,6 +2120,7 @@
       "server": "107.174.85.183",
       "server_port": 11163,
       "uuid": "d9fbc365-bf98-4ff6-a66d-523cc217d56e",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
@@ -2048,6 +2143,7 @@
       "server": "181.215.18.92",
       "server_port": 443,
       "uuid": "3e9176f8-2d79-4259-b66e-48c7d23398dc",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
@@ -2070,6 +2166,7 @@
       "server": "104.21.21.72",
       "server_port": 443,
       "uuid": "5f6c3f92-7220-4275-b34d-57c04db3f967",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "tttyu.003330333.xyz",
@@ -2093,6 +2190,7 @@
       "server": "77.110.114.1",
       "server_port": 443,
       "uuid": "03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "srv27.outlinekeys.com",
@@ -2114,6 +2212,7 @@
       "server": "203.218.216.145",
       "server_port": 443,
       "uuid": "fcfc091d-81a4-40b7-cbdc-8eb7683617a4",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.icloud.com",
@@ -2135,6 +2234,7 @@
       "server": "37.139.42.234",
       "server_port": 4443,
       "uuid": "9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru",
@@ -2383,6 +2483,7 @@
   ],
   "route": {
     "auto_detect_interface": true,
+    "default_domain_resolver": "google",
     "final": "T.ME: @aristapnel #1",
     "rules": [
       {

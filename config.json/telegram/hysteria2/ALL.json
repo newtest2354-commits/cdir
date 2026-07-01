@@ -1,6 +1,6 @@
 // TELEGRAM - HYSTERIA2 - Tier ALL
-// Updated: 2026-07-01 05:55:30
-// Count: 7
+// Updated: 2026-07-01 06:23:08
+// Count: 6
 
 {
   "log": {
@@ -41,29 +41,10 @@
     {
       "type": "hysteria2",
       "tag": "ARISTA #1",
-      "server": "191.101.238.183",
-      "server_port": 54040,
-      "password": "q3tf4lsdoqpgpo4x",
-      "tls": {
-        "enabled": true,
-        "server_name": "191.101.238.183",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "@JynMarket"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #3",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
@@ -80,46 +61,11 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #4",
-      "server": "nrealistic.nn-foto.ru",
-      "server_port": 1935,
-      "password": "653m8mmiy7048p0f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nrealistic.nn-foto.ru",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "lhfl2z9mjngb7csh"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #5",
-      "server": "80.66.81.78",
-      "server_port": 9443,
-      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
-      "tls": {
-        "enabled": true,
-        "server_name": "tunel1.washing.help",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "ARISTA #6",
+      "tag": "ARISTA #2",
       "server": "65.20.114.95",
       "server_port": 443,
       "password": "V2rayyNGvpn",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.oracle.com",
@@ -136,10 +82,11 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #7",
+      "tag": "ARISTA #3",
       "server": "143.14.59.229",
       "server_port": 443,
       "password": "t-me-V2RayyNGvpn",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
         "server_name": "www.oracle.com",
@@ -156,18 +103,61 @@
     },
     {
       "type": "hysteria2",
-      "tag": "ARISTA #8",
-      "server": "2.26.49.16",
-      "server_port": 443,
-      "password": "653m8mmiy7048p0f",
+      "tag": "ARISTA #4",
+      "server": "191.101.238.183",
+      "server_port": 54040,
+      "password": "q3tf4lsdoqpgpo4x",
+      "domain_resolver": "google",
       "tls": {
         "enabled": true,
-        "server_name": "2.26.49.16",
+        "server_name": "191.101.238.183",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "@JynMarket"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #6",
+      "server": "80.66.81.78",
+      "server_port": 9443,
+      "password": "rs2mR3g9bZiMloftx6lZQ59Um1Ld",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "tunel1.washing.help",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "oMgvuBy5Lj5kYM57sGsnjpjNcSEQ"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "ARISTA #7",
+      "server": "nrealistic.nn-foto.ru",
+      "server_port": 1935,
+      "password": "653m8mmiy7048p0f",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "nrealistic.nn-foto.ru",
         "insecure": true
       },
       "obfs": {
         "type": "salamander",
-        "password": "3sv5vpdl9xr84lyb"
+        "password": "lhfl2z9mjngb7csh"
       }
     },
     {
@@ -183,12 +173,11 @@
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
         "ARISTA #1",
+        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
-        "ARISTA #5",
         "ARISTA #6",
-        "ARISTA #7",
-        "ARISTA #8"
+        "ARISTA #7"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -201,12 +190,11 @@
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
         "ARISTA #1",
+        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
-        "ARISTA #5",
         "ARISTA #6",
-        "ARISTA #7",
-        "ARISTA #8"
+        "ARISTA #7"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -217,6 +205,7 @@
   ],
   "route": {
     "auto_detect_interface": true,
+    "default_domain_resolver": "google",
     "final": "ARISTA #1",
     "rules": [
       {
