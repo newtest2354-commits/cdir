@@ -1,5 +1,5 @@
 # GITHUB - VLESS - Tier 250
-# Updated: 2026-07-01 06:39:01
+# Updated: 2026-07-01 06:50:43
 # Count: 250
 
 mixed-port: 7890
@@ -3034,20 +3034,6 @@ proxies:
   servername: ams1.fromblancwithlove.com
 - name: 'T.ME: @aristapnel #222'
   type: vless
-  server: 83.168.71.216
-  port: 443
-  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: ads.x5.ru
-  reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: "2f49bccf11150ef2"
-- name: 'T.ME: @aristapnel #223'
-  type: vless
   server: tg.riotvpn.eu
   port: 443
   uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
@@ -3060,7 +3046,7 @@ proxies:
   reality-opts:
     public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
     short-id: "2f49bccf11150ef2"
-- name: 'T.ME: @aristapnel #224'
+- name: 'T.ME: @aristapnel #223'
   type: vless
   server: 89.169.39.55
   port: 443
@@ -3075,7 +3061,7 @@ proxies:
   reality-opts:
     public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
     short-id: "825867"
-- name: 'T.ME: @aristapnel #225'
+- name: 'T.ME: @aristapnel #224'
   type: vless
   server: 185.229.191.46
   port: 8443
@@ -3085,7 +3071,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #226'
+- name: 'T.ME: @aristapnel #225'
   type: vless
   server: 45.159.12.3
   port: 8443
@@ -3096,7 +3082,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #227'
+- name: 'T.ME: @aristapnel #226'
   type: vless
   server: 79.127.227.57
   port: 8443
@@ -3106,7 +3092,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #228'
+- name: 'T.ME: @aristapnel #227'
   type: vless
   server: 185.229.191.67
   port: 8443
@@ -3116,17 +3102,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #229'
-  type: vless
-  server: 185.229.191.69
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #230'
+- name: 'T.ME: @aristapnel #228'
   type: vless
   server: 162.249.126.78
   port: 8443
@@ -3137,7 +3113,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: cdn7-09.vk-cdnvideo.com
-- name: 'T.ME: @aristapnel #231'
+- name: 'T.ME: @aristapnel #229'
   type: vless
   server: 185.229.191.145
   port: 8443
@@ -3147,7 +3123,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #232'
+- name: 'T.ME: @aristapnel #230'
   type: vless
   server: 45.159.12.3
   port: 8443
@@ -3158,7 +3134,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #233'
+- name: 'T.ME: @aristapnel #231'
   type: vless
   server: 217.28.48.29
   port: 25752
@@ -3167,7 +3143,7 @@ proxies:
   tls: false
   udp: true
   skip-cert-verify: true
-- name: 'T.ME: @aristapnel #234'
+- name: 'T.ME: @aristapnel #232'
   type: vless
   server: 173.245.58.75
   port: 443
@@ -3181,7 +3157,7 @@ proxies:
     path: /hdgrbws
     headers:
       Host: terazhediii.info
-- name: 'T.ME: @aristapnel #235'
+- name: 'T.ME: @aristapnel #233'
   type: vless
   server: 95.182.80.48
   port: 15370
@@ -3195,7 +3171,7 @@ proxies:
   reality-opts:
     public-key: oYCopzg1jDV54b-i8nR9_ULi7uivm_qfCM95LwRBfXU
     short-id: "61"
-- name: 'T.ME: @aristapnel #236'
+- name: 'T.ME: @aristapnel #234'
   type: vless
   server: 109.61.18.135
   port: 40732
@@ -3209,7 +3185,7 @@ proxies:
   reality-opts:
     public-key: V-fTxzejwmP5x9rjQR5i1IE7WrSn-syZq9Qp41jukFE
     short-id: "a7"
-- name: 'T.ME: @aristapnel #237'
+- name: 'T.ME: @aristapnel #235'
   type: vless
   server: 108.162.194.135
   port: 443
@@ -3223,7 +3199,7 @@ proxies:
     path: /proxyip=dc844a1f.tp15333.ip.090227.xyz
     headers:
       Host: nbhhh.mrcool.kdns.fr
-- name: 'T.ME: @aristapnel #238'
+- name: 'T.ME: @aristapnel #236'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -3237,7 +3213,7 @@ proxies:
     path: /proxyip=40.233.87.120
     headers:
       Host: small-voice-c4c5.itsnewrzan.workers.dev
-- name: 'T.ME: @aristapnel #239'
+- name: 'T.ME: @aristapnel #237'
   type: vless
   server: 152.233.28.201
   port: 8443
@@ -3247,7 +3223,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #240'
+- name: 'T.ME: @aristapnel #238'
   type: vless
   server: 45.206.0.44
   port: 8443
@@ -3261,7 +3237,7 @@ proxies:
   reality-opts:
     public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
     short-id: "ea10cd5686751ec5"
-- name: 'T.ME: @aristapnel #241'
+- name: 'T.ME: @aristapnel #239'
   type: vless
   server: 188.114.97.6
   port: 2053
@@ -3275,7 +3251,7 @@ proxies:
     path: /eyJqdW5rIjoiZzdoR3kxczdkcUxmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
     headers:
       Host: wandering-field-030c.hsusudjfifjdhxccv.workers.dev
-- name: 'T.ME: @aristapnel #242'
+- name: 'T.ME: @aristapnel #240'
   type: vless
   server: 95.133.245.170
   port: 8443
@@ -3286,7 +3262,7 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: qq
   servername: cdn3-87.vk-cdnvideo.com
-- name: 'T.ME: @aristapnel #243'
+- name: 'T.ME: @aristapnel #241'
   type: vless
   server: 162.249.126.198
   port: 443
@@ -3301,7 +3277,7 @@ proxies:
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: "8015c191d21aa452"
-- name: 'T.ME: @aristapnel #244'
+- name: 'T.ME: @aristapnel #242'
   type: vless
   server: lv.faygo.bot
   port: 443
@@ -3316,7 +3292,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: "6ba85179e30d4fc2"
-- name: 'T.ME: @aristapnel #245'
+- name: 'T.ME: @aristapnel #243'
   type: vless
   server: 31.77.56.79
   port: 443
@@ -3331,7 +3307,7 @@ proxies:
     grpc-service-name: vless-grpc
   reality-opts:
     public-key: QGnGWzhnKWHNkpRXIm13T-2OFfZ8h7ch9pJhpqADzFU
-- name: 'T.ME: @aristapnel #246'
+- name: 'T.ME: @aristapnel #244'
   type: vless
   server: 217.217.244.129
   port: 443
@@ -3346,7 +3322,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: "6ba85179e30d4fc2"
-- name: 'T.ME: @aristapnel #247'
+- name: 'T.ME: @aristapnel #245'
   type: vless
   server: 185.229.191.110
   port: 8443
@@ -3356,27 +3332,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #248'
-  type: vless
-  server: 185.229.191.69
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #249'
-  type: vless
-  server: 185.229.191.67
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: ams1.fromblancwithlove.com
-- name: 'T.ME: @aristapnel #250'
+- name: 'T.ME: @aristapnel #246'
   type: vless
   server: 104.16.75.223
   port: 443
@@ -3388,6 +3344,61 @@ proxies:
   servername: server-ir-7.ariyuz.org
   ws-opts:
     path: /
+- name: 'T.ME: @aristapnel #247'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  servername: terazhediii.info
+  ws-opts:
+    path: /hdgrbws
+    headers:
+      Host: terazhediii.info
+- name: 'T.ME: @aristapnel #248'
+  type: vless
+  server: 45.90.97.132
+  port: 443
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  servername: fr.bvps.cloud
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: "0befa76540b5db79"
+- name: 'T.ME: @aristapnel #249'
+  type: vless
+  server: betty.ns.cloudflare.com
+  port: 443
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  servername: amooaliii.net
+  ws-opts:
+    path: /jdhfyws
+    headers:
+      Host: amooaliii.net
+- name: 'T.ME: @aristapnel #250'
+  type: vless
+  server: 46.229.243.73
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  servername: cdn3-87.vk-cdnvideo.com
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test

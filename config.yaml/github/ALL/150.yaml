@@ -1,5 +1,5 @@
 # GITHUB - ALL - Tier 150
-# Updated: 2026-07-01 06:39:04
+# Updated: 2026-07-01 06:50:46
 # Count: 150
 
 mixed-port: 7890
@@ -324,47 +324,6 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #20'
   type: trojan
-  server: 51.75.86.196
-  port: 55646
-  password: 03mpolj39zyewzufal2r
-  network: tcp
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  tcp-fast-open: true
-  servername: 51.75.86.196
-- name: 'T.ME: @aristapnel #21'
-  type: trojan
-  server: 104.16.72.70
-  port: 443
-  password: 6c862415-30d2-4813-8e49-42e99a0bd415
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  tcp-fast-open: true
-  servername: space.byu.id.yxls.eu.cc
-  ws-opts:
-    path: /us-gllc
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #22'
-  type: trojan
-  server: 45.130.125.126
-  port: 443
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  tcp-fast-open: true
-  servername: space.byu.id.yxls.eu.cc
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-- name: 'T.ME: @aristapnel #23'
-  type: trojan
   server: shazira.app
   port: 443
   password: 8d19cac6-defb-46d1-a84a-a8100a86fd11
@@ -378,7 +337,7 @@ proxies:
     path: /Novan-ID10
     headers:
       Host: shazira.app
-- name: 'T.ME: @aristapnel #24'
+- name: 'T.ME: @aristapnel #21'
   type: trojan
   server: shazira.app
   port: 443
@@ -394,7 +353,7 @@ proxies:
     path: /Novan-ID10
     headers:
       Host: shazira.app
-- name: 'T.ME: @aristapnel #25'
+- name: 'T.ME: @aristapnel #22'
   type: trojan
   server: 213.176.113.98
   port: 2053
@@ -409,7 +368,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #26'
+- name: 'T.ME: @aristapnel #23'
   type: trojan
   server: 119.246.1.143
   port: 443
@@ -420,7 +379,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: t.me/ripaojiedian
-- name: 'T.ME: @aristapnel #27'
+- name: 'T.ME: @aristapnel #24'
   type: trojan
   server: de-1.hysteria.ltd
   port: 9443
@@ -431,23 +390,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: de-1.hysteria.ltd
-- name: 'T.ME: @aristapnel #28'
-  type: trojan
-  server: 151.101.110.219
-  port: 443
-  password: MITIVPN
-  network: ws
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  tcp-fast-open: true
-  servername: global.fastly.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ed=mitivpn
-    headers:
-      Host: mitivpn-6.global.ssl.fastly.net
-- name: 'T.ME: @aristapnel #29'
+- name: 'T.ME: @aristapnel #25'
   type: trojan
   server: 164.38.155.135
   port: 443
@@ -464,7 +407,7 @@ proxies:
     path: /MiTiVPN=De
     headers:
       Host: 95r.ir
-- name: 'T.ME: @aristapnel #30'
+- name: 'T.ME: @aristapnel #26'
   type: trojan
   server: 94.140.0.100
   port: 443
@@ -480,6 +423,69 @@ proxies:
   - http/1.1
   ws-opts:
     path: /MiTiVPN=Usa
+    headers:
+      Host: 95r.ir
+- name: 'T.ME: @aristapnel #27'
+  type: trojan
+  server: 94.140.0.100
+  port: 443
+  password: MITIVPN
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  tcp-fast-open: true
+  servername: 95r.ir
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /MiTiVPN=Usa
+    headers:
+      Host: 95r.ir
+- name: 'T.ME: @aristapnel #28'
+  type: trojan
+  server: masir_sefid
+  port: 443
+  password: Masir_Sefid
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  tcp-fast-open: true
+  servername: store.steampowered.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #29'
+  type: trojan
+  server: 199.181.197.176
+  port: 443
+  password: MiTiVPN
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  tcp-fast-open: true
+  servername: 95r.ir
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /MiTiVPN=fL
+    headers:
+      Host: 95r.ir
+- name: 'T.ME: @aristapnel #30'
+  type: trojan
+  server: 45.131.4.118
+  port: 443
+  password: MiTiVPN
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  tcp-fast-open: true
+  servername: 95r.ir
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /MiTiVPN=Se
     headers:
       Host: 95r.ir
 - name: 'T.ME: @aristapnel #31'
@@ -1233,23 +1239,6 @@ proxies:
   servername: spt.reata.ir
 - name: 'T.ME: @aristapnel #108'
   type: vmess
-  server: 69.84.182.49
-  port: 80
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  tcp-fast-open: true
-  servername: 69.84.182.49
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-- name: 'T.ME: @aristapnel #109'
-  type: vmess
   server: 45.92.70.236
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
@@ -1261,7 +1250,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 45.92.70.236
-- name: 'T.ME: @aristapnel #110'
+- name: 'T.ME: @aristapnel #109'
   type: vmess
   server: 85.90.217.42
   port: 22324
@@ -1274,7 +1263,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 85.90.217.42
-- name: 'T.ME: @aristapnel #111'
+- name: 'T.ME: @aristapnel #110'
   type: vmess
   server: 67.220.85.46
   port: 18000
@@ -1287,7 +1276,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 67.220.85.46
-- name: 'T.ME: @aristapnel #112'
+- name: 'T.ME: @aristapnel #111'
   type: vmess
   server: 38.110.1.246
   port: 18000
@@ -1300,7 +1289,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 38.110.1.246
-- name: 'T.ME: @aristapnel #113'
+- name: 'T.ME: @aristapnel #112'
   type: vmess
   server: 38.91.107.49
   port: 18000
@@ -1313,7 +1302,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 38.91.107.49
-- name: 'T.ME: @aristapnel #114'
+- name: 'T.ME: @aristapnel #113'
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -1326,7 +1315,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 134.195.196.211
-- name: 'T.ME: @aristapnel #115'
+- name: 'T.ME: @aristapnel #114'
   type: vmess
   server: 84.17.41.2
   port: 18000
@@ -1339,7 +1328,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 84.17.41.2
-- name: 'T.ME: @aristapnel #116'
+- name: 'T.ME: @aristapnel #115'
   type: vmess
   server: 23.226.135.232
   port: 55310
@@ -1352,7 +1341,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 23.226.135.232
-- name: 'T.ME: @aristapnel #117'
+- name: 'T.ME: @aristapnel #116'
   type: vmess
   server: 82.198.246.37
   port: 180
@@ -1365,7 +1354,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 82.198.246.37
-- name: 'T.ME: @aristapnel #118'
+- name: 'T.ME: @aristapnel #117'
   type: vmess
   server: 23.141.204.132
   port: 29633
@@ -1378,7 +1367,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 23.141.204.132
-- name: 'T.ME: @aristapnel #119'
+- name: 'T.ME: @aristapnel #118'
   type: vmess
   server: 38.114.123.42
   port: 18000
@@ -1391,7 +1380,7 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 38.114.123.42
-- name: 'T.ME: @aristapnel #120'
+- name: 'T.ME: @aristapnel #119'
   type: vmess
   server: 82.198.246.233
   port: 180
@@ -1404,6 +1393,19 @@ proxies:
   skip-cert-verify: true
   tcp-fast-open: true
   servername: 82.198.246.233
+- name: 'T.ME: @aristapnel #120'
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  tcp-fast-open: true
+  servername: 82.198.246.250
 - name: 'T.ME: @aristapnel #121'
   type: vless
   server: 94.131.123.167

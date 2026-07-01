@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 200
-// Updated: 2026-07-01 06:42:06
+// Updated: 2026-07-01 06:53:13
 // Count: 200
 
 {
@@ -3316,6 +3316,402 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "ARISTA #168",
+      "server": "81.255.155.10",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.creationlong.org"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #169",
+      "server": "85.198.11.172",
+      "server_port": 40443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.ignitelimit.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #170",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gossipglove.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.gossipglove.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #171",
+      "server": "sourceforge.net",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmloud.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #172",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #173",
+      "server": "www.creationlong.org",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.creationlong.org"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #174",
+      "server": "www.gossipglove.com",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.gossipglove.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #175",
+      "server": "www.ignitelimit.com",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.ignitelimit.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #176",
+      "server": "www.multiplydose.com",
+      "server_port": 443,
+      "password": "humanity",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.multiplydose.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.multiplydose.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #177",
+      "server": "146.70.90.198",
+      "server_port": 57452,
+      "password": "t1k169n5zmvvwn96r9ft",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "146.70.90.198",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #178",
+      "server": "38.60.220.65",
+      "server_port": 443,
+      "password": "t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak",
+      "domain_resolver": "google"
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #179",
+      "server": "13.36.137.47",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #180",
+      "server": "13.37.121.12",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #181",
+      "server": "13.37.40.117",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #182",
+      "server": "15.236.68.71",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #183",
+      "server": "35.156.135.140",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #184",
+      "server": "52.59.13.5",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #185",
+      "server": "63.184.199.58",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #186",
+      "server": "63.186.80.111",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #187",
+      "server": "13.36.137.47",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #188",
+      "server": "13.37.121.12",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      }
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
@@ -3493,7 +3889,28 @@
         "ARISTA #164",
         "ARISTA #165",
         "ARISTA #166",
-        "ARISTA #167"
+        "ARISTA #167",
+        "ARISTA #168",
+        "ARISTA #169",
+        "ARISTA #170",
+        "ARISTA #171",
+        "ARISTA #172",
+        "ARISTA #173",
+        "ARISTA #174",
+        "ARISTA #175",
+        "ARISTA #176",
+        "ARISTA #177",
+        "ARISTA #178",
+        "ARISTA #179",
+        "ARISTA #180",
+        "ARISTA #181",
+        "ARISTA #182",
+        "ARISTA #183",
+        "ARISTA #184",
+        "ARISTA #185",
+        "ARISTA #186",
+        "ARISTA #187",
+        "ARISTA #188"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",

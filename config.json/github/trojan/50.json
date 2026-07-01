@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 50
-// Updated: 2026-07-01 06:42:06
+// Updated: 2026-07-01 06:53:13
 // Count: 50
 
 {
@@ -828,6 +828,87 @@
       "domain_resolver": "google"
     },
     {
+      "type": "trojan",
+      "tag": "ARISTA #43",
+      "server": "92.119.35.130",
+      "server_port": 443,
+      "password": "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR",
+      "domain_resolver": "google"
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #44",
+      "server": "127.0.0.1",
+      "server_port": 1080,
+      "password": "aacbacb-baac-caab-cdba-caccbabaabbc",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #45",
+      "server": "127.0.0.1",
+      "server_port": 8080,
+      "password": "acacbab-baac-abac-dcab-aacabcbcabcb",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #46",
+      "server": "wing2452.nyc.mn",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "wing2452.nyc.mn",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr",
+        "headers": {
+          "Host": "wing2452.nyc.mn"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "ARISTA #47",
+      "server": "wing2452.nyc.mn",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "domain_resolver": "google",
+      "transport": {
+        "type": "ws",
+        "path": "/tr?ed=2560",
+        "headers": {
+          "Host": "wing2452.nyc.mn"
+        }
+      }
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
@@ -880,7 +961,12 @@
         "ARISTA #39",
         "ARISTA #40",
         "ARISTA #41",
-        "ARISTA #42"
+        "ARISTA #42",
+        "ARISTA #43",
+        "ARISTA #44",
+        "ARISTA #45",
+        "ARISTA #46",
+        "ARISTA #47"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",

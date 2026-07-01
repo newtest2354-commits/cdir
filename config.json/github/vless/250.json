@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 250
-// Updated: 2026-07-01 06:42:06
+// Updated: 2026-07-01 06:53:13
 // Count: 248
 
 {
@@ -4959,6 +4959,94 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "ARISTA #242",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "terazhediii.info",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hdgrbws",
+        "headers": {
+          "Host": "terazhediii.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ARISTA #243",
+      "server": "45.90.97.132",
+      "server_port": 443,
+      "uuid": "52b71b75-4b77-4cec-990b-046ec1938e1f",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.bvps.cloud",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10",
+          "short_id": "0befa76540b5db79"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "ARISTA #244",
+      "server": "betty.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "72d1797c-cef8-410a-b8fd-db9104dc3cb0",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "amooaliii.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/jdhfyws",
+        "headers": {
+          "Host": "amooaliii.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ARISTA #245",
+      "server": "46.229.243.73",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "domain_resolver": "google",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn3-87.vk-cdnvideo.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
@@ -5210,7 +5298,11 @@
         "ARISTA #238",
         "ARISTA #239",
         "ARISTA #240",
-        "ARISTA #241"
+        "ARISTA #241",
+        "ARISTA #242",
+        "ARISTA #243",
+        "ARISTA #244",
+        "ARISTA #245"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
