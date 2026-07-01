@@ -432,6 +432,26 @@ class ConfigToJSONConverter:
         except Exception as e:
             return None
 
+    def validate_outbounds(self, proxies):
+        valid = []
+        for p in proxies:
+            if not isinstance(p, dict):
+                continue
+            if "type" not in p or "tag" not in p:
+                continue
+            if p["type"] in ["vless", "vmess", "trojan", "shadowsocks", "hysteria2"]:
+                valid.append(p)
+        return valid
+
+    def _safe_final(self, proxies: List[Dict]) -> str:
+        for p in proxies:
+            if p.get("tag") and "ARISTA AUTO BEST" in p.get("tag"):
+                return p["tag"]
+        for p in proxies:
+            if p.get("tag"):
+                return p["tag"]
+        return "direct"
+
     def build_proxy_groups(self, all_proxies):
         proxy_tags = [p["tag"] for p in all_proxies if p.get("tag")]
 
@@ -441,7 +461,7 @@ class ConfigToJSONConverter:
         return [
             {
                 "type": "urltest",
-                "tag": "🚀 ARISTA AUTO BEST",
+                "tag": "\U0001f680 ARISTA AUTO BEST",
                 "outbounds": proxy_tags,
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": "2m",
@@ -451,7 +471,7 @@ class ConfigToJSONConverter:
             },
             {
                 "type": "urltest",
-                "tag": "🎯 ARISTA MANUAL TESTED",
+                "tag": "\U0001f3af ARISTA MANUAL TESTED",
                 "outbounds": proxy_tags,
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": "3m",
@@ -495,11 +515,7 @@ class ConfigToJSONConverter:
                 }
             }
 
-        cleaned_proxies = [
-            dict(p)
-            for p in proxies
-            if isinstance(p, dict)
-        ]
+        cleaned_proxies = self.validate_outbounds(proxies)
 
         proxy_groups = self.build_proxy_groups(cleaned_proxies)
 
@@ -518,25 +534,11 @@ class ConfigToJSONConverter:
                     },
                     {
                         "type": "udp",
-                        "tag": "google2",
-                        "server": "8.8.4.4"
-                    },
-                    {
-                        "type": "local",
-                        "tag": "local"
+                        "tag": "cloudflare",
+                        "server": "1.1.1.1"
                     }
                 ],
-
-                "rules": [
-                    {
-                        "domain": [
-                            "geosite:private"
-                        ],
-                        "action": "route",
-                        "server": "local"
-                    }
-                ],
-
+                "rules": [],
                 "final": "google"
             },
 
@@ -546,12 +548,12 @@ class ConfigToJSONConverter:
                     "tag": "tun-in",
                     "interface_name": "singbox-tun",
                     "address": [
-                        "172.19.0.1/30",
-                        "fdfe:dcba:9876::1/126"
+                        "172.19.0.1/30"
                     ],
                     "auto_route": True,
                     "strict_route": True,
-                    "stack": "mixed"
+                    "stack": "system",
+                    "sniff": False
                 }
             ],
 
@@ -572,21 +574,11 @@ class ConfigToJSONConverter:
 
             "route": {
                 "auto_detect_interface": True,
-
-                "default_domain_resolver": {
-                    "server": "google",
-                    "strategy": "prefer_ipv4"
-                },
-
-                "final": "🚀 ARISTA AUTO BEST",
-
+                "final": self._safe_final(cleaned_proxies),
                 "rules": [
                     {
-                        "action": "sniff",
-                    },
-                    {
                         "protocol": "dns",
-                        "action": "hijack-dns"
+                        "outbound": "direct"
                     }
                 ]
             }
